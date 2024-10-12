@@ -1,0 +1,16 @@
+
+> INDEX.HTML (HOME PAGE)
+    ❌ upload image of Erika
+    ✅ select font style 
+    ❌ style footer
+    ❌ craft home page bio section
+    ❌ Mobile layout
+        ❌ set up mobile sidebar
+    ❌ Tablet layout
+        ❌ set up active sidebar
+    ❌ Desktop layout
+        ❌ horizontal navbar? 
+    ❌ Make page responsive
+    ❌ Style entire page
+        ❌ Change background image  
+            > blank canvas image 

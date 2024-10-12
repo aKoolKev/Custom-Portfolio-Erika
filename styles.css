@@ -1,24 +1,38 @@
-body{
-    background-color: #E0E1DD;
-    color: #533E2D;
+/* Utility classes */
+.font-sabon, p{
+    font-family: 'Sabon Next LT', sans-serif;
 }
-header{
-    background-color: yellow;
-}
-main{
-    background-color: rgb(121, 121, 235);
+.font-maghfirea, h1, h2, h3, h4, h5, h6{
+    font-family: 'Maghfirea', sans-serif;
 }
 
-nav{
-    background-color: green;
+header{
+    background-color: rgba(255, 255, 0, 0.533);
+    margin-top: 75px;
+    padding: 2px;
+    border: 2px solid black;
+}
+#mobile-sidebar{
+    background-color: rgba(255, 255, 255, 0.612);
+}
+
+body{
+    background-color: #E0E1DD;
+    color: #533E2D;  
+    border: 2px solid black;            
+}
+
+main{
+    background-color: rgba(121, 121, 235, 0.596);
+    border: 2px solid black;
 }
 
 footer{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.609);
+    border: 2px solid black;    
 }
 
 img{
     width: 250px;
     height: 250px;
-    border-radius: 15px;
 }

@@ -11,28 +11,90 @@
 
     <!-- Linking my custom CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Credit: https://www.cdnfonts.com/sabon-next-lt.font#:~:text=You%20can%20download%20the%20Sabon%20Next%20LT%20font,Please%20research%20the%20license%20information%20before%20using%20it.-->
+    <link href="https://fonts.cdnfonts.com/css/sabon-next-lt" rel="stylesheet">
+
+    <!-- Credit: https://www.cdnfonts.com/maghfirea.font#:~:text=You%20can%20download%20the%20Maghfirea%20font%20to%20your,Please%20research%20the%20license%20information%20before%20using%20it. -->
+    <link href="https://fonts.cdnfonts.com/css/maghfirea" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-        <h1>ERIKA</h1>
-        <aside>
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Works</li>
-                    <li>Services</li>
-                    <li>Resume</li>
-                </ul>
-            </nav>
+        <!-- MOBILE SIDEBAR NAVIGATION -->
+        <aside class="navbar fixed-top" id="mobile-sidebar">
+            <div class="container-fluid">
+                <a class="navbar-brand font-maghfirea" href="#">WELCOME!</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Sidebar container -->
+                <div class="offcanvas offcanvas-end w-50 font-sabon" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <!-- Sidebar header -->
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">EXPLORE</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div> 
+                    <!-- Sidebar body -->
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                        <!-- PAGE #1: INDEX.HTML -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+
+                        <!-- ABOUT -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- PAGE #2: about.html -->
+                                <li><a class="dropdown-item" href="about.html">WHO'S ERIKA?</a></li>
+                                
+                                <!-- PAGE #3: resume.html -->
+                                <li><a class="dropdown-item" href="resume.html">MY RESUME</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- PAGE #4: works.html -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="works.html">WORKS</a>
+                        </li>
+
+                        <!-- PAGE #5: service.html -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">SERVICE</a>
+                        </li>
+
+                        <!-- PAGE #6: contact.html -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </div>
+                </div>
+
+            </div>
         </aside>
+
+        <h1>ERIKA</h1>
+
     </header>
-    <main
+
+    <main>
         <article>
             <img class="placeholder" src="" alt="An image of Erika.">
-            <p> Insert greetings. Explain the purpose. Encourage exploration. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias obcaecati libero id doloribus facilis! Sit culpa nulla consectetur porro qui ea, veritatis temporibus, illo atque maiores, quo veniam nesciunt modi!</p>
+            <p> 
+                Insert greetings. Explain the purpose. Encourage exploration. 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias 
+                obcaecati libero id doloribus facilis! Sit culpa nulla consectetur 
+                porro qui ea, veritatis temporibus, illo atque maiores, quo veniam 
+                nesciunt modi!
+            </p>
         </article>
-
-        </p>
     </main>
 
     <footer>

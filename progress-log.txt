@@ -6,10 +6,15 @@
     ❌ style footer
     ✅ craft home page bio section
         ❌ Have Erika's approval
-    ❌ Mobile layout
+    ✅ Mobile layout
         ✅ set up mobile sidebar
-    ❌ Tablet layout
-        ❌ set up active sidebar
+        ❌ create floating button animation
+    ❌ 🚧 Tablet layout 🚧 
+        ❌ set up active vertical sidebar
+        ❌ hide mobile sidebar
+        ❌ center Erika's name
+        ❌ increase paragraph line space
+        ❌ apply floating button animation
     ❌ Desktop layout
         ❌ horizontal navbar? 
     ❌ Make page responsive

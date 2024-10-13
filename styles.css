@@ -8,6 +8,10 @@
 .color-brown{
     color: #533E2D;
 }
+.color-green{
+    color: #618B25;
+}
+
 
 header{
     /* background-color: rgba(255, 255, 0, 0.533); */
@@ -16,22 +20,23 @@ header{
 }
 body{
     background-color: #E0E1DD;
-    border: 5px solid rgb(255, 255, 255);     
+    border: 5px solid rgb(155, 48, 141);     
     color: #533E2D;  
     font-size: 16px;
     background-image: url('images/canvas-bg.jpeg');
-    background-attachment: fixed;  
+    background-attachment: fixed; 
 }
 main{
     /* background-color: rgba(121, 121, 235, 0.596); */
-    border: 2px solid black;
+    border: 2px solid rgb(44, 235, 216);
+    min-height: calc(100vh - 150px); 
 }
 footer{
     /* background-color: rgb(255, 0, 0); */
     border: 3px solid rgb(242, 122, 122);    
     color: #533E2D;
     text-align: center;
-    padding: 7px;
+    padding: 10px;
 }
 footer p{
     margin:0;
@@ -49,11 +54,12 @@ footer a{
     #mobile-sidebar button{
         background-color: #618B25;
     }
-    .navbar-toggler-icon{
-        /* Credit: https://icons8.com/icons/set/hamburger--white */
-        background-image:url("images/hamburger-menu-icon.svg");
+
+    /* Make the btn-close icon white */
+    .btn-close {
+        /* credit: https://icons.getbootstrap.com/icons/x-lg/ */
+        background-image: url('images/x-lg.svg');
     }
-        
 
 
 /* Mobile (up to 600px) */
@@ -88,6 +94,13 @@ footer a{
 /* Tablet (601px to 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
     /* Styles for tablets */
+    .home-page-img{
+        width: auto;
+        max-height: 450px;
+        margin-bottom: 25px;
+        padding: 0;
+        border-radius: 10px;
+    }
 }
 
 /* Desktop (1025px and up) */

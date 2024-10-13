@@ -9,12 +9,13 @@
     ✅ Mobile layout
         ✅ set up mobile sidebar
         ❌ create floating button animation
-    ❌ 🚧 Tablet layout 🚧 
+    ✅ Tablet layout 
         ✅ set up active vertical sidebar
         ✅ hide mobile sidebar
         ✅ center Erika's name
         ✅ increase paragraph line space
-        ❌ apply floating button animation
+        ✅ apply floating button animation
+        ❌ BUG: footer needs to connect with main body content
     ❌ Desktop layout
         ❌ horizontal navbar? 
     ❌ Make page responsive

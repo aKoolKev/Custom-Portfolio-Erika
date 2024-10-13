@@ -10,10 +10,10 @@
         ✅ set up mobile sidebar
         ❌ create floating button animation
     ❌ 🚧 Tablet layout 🚧 
-        ❌ set up active vertical sidebar
-        ❌ hide mobile sidebar
-        ❌ center Erika's name
-        ❌ increase paragraph line space
+        ✅ set up active vertical sidebar
+        ✅ hide mobile sidebar
+        ✅ center Erika's name
+        ✅ increase paragraph line space
         ❌ apply floating button animation
     ❌ Desktop layout
         ❌ horizontal navbar? 

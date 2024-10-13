@@ -22,6 +22,7 @@
 
         <header>
             <!-- MOBILE SIDEBAR NAVIGATION -->
+            <!-- Display only on small screen -->
             <aside class="navbar fixed-top" id="mobile-sidebar">
                 <div class="container">
 
@@ -91,13 +92,29 @@
         </header>
 
         <main class="container-fluid">
-            <div class="row" style="border: 2px solid yellow;">
-                <article class="column-sm-6 column-md-1 column-lg-1 text-center p-5" style="border: 2px solid red;">
+
+            <!-- ROW #1 -->
+            <div class="row justify-content-center" style="border: 2px solid yellow;">
+
+                <!-- COL #1 -->
+                <div class="col-sm-3 d-none d-sm-block" style="border: 2px solid cyan;">
+                    <ul id="tablet-sidebar">
+                        <li><button class="tablet-sidebar-button">HOME</button></li>
+                        <li><button class="tablet-sidebar-button">WHO'S ERIKA?</button></li>
+                        <li><button class="tablet-sidebar-button">RESUME</button></li>
+                        <li><button class="tablet-sidebar-button">CONTACT</button></li>
+                        <li><button class="tablet-sidebar-button">WORKS</button></li>
+                        <li><button class="tablet-sidebar-button">SERVICE</button></li>
+                    </ul>
+                </div>
+
+                <!-- COL #2 -->
+                <article class="col-12 col-sm-9 text-center p-5" style="border: 2px solid red;">
                     
                     <!-- IMAGE OF ERIKA -->
                     <img class="img-fluid home-page-img" src="images/Erika PFP.jpeg" alt="An image of Erika.">
 
-                    <h2 class="color-green">Welcome to My Portfolio</h2>
+                    <h2 id="home-page-subheading">Welcome to My Portfolio!</h2>
 
                     <!-- Home page about section -->
                     <p id="home-page-para"> 
@@ -106,7 +123,8 @@
                         I hope you enjoy your time here!
                     </p>
                 </article>
-            </div>
+
+            </div> <!--End of ROW 1-->
         </main>
 
         <footer>

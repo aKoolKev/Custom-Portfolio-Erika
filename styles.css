@@ -48,32 +48,63 @@ footer a{
 
 
 /* INDEX.HTML STYLES */
-    #mobile-sidebar{
-        background-color: transparent;
-    }
-    #mobile-sidebar button{
-        background-color: #618B25;
-    }
+#mobile-sidebar{
+    background-color: transparent;
+}
+#mobile-sidebar button{
+    background-color: #618B25;
+}
 
-    /* Make the btn-close icon white */
-    .btn-close {
-        /* credit: https://icons.getbootstrap.com/icons/x-lg/ */
-        background-image: url('images/x-lg.svg');
-    }
+/* Make the btn-close icon white */
+.btn-close {
+    /* credit: https://icons.getbootstrap.com/icons/x-lg/ */
+    background-image: url('images/x-lg.svg');
+}
+#tablet-sidebar{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 60%;
+    text-align: center;
+}
+#tablet-sidebar li{
+    margin: 15px 0;
+}
+
+.tablet-sidebar-button {
+    background-color: #618B25;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    border: 2px solid #533E2D;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #E0E1DD; /* Corrected property */
+    color: #533E2D;
+}
+
+#home-page-subheading{
+    font-weight: bold;
+    color: #618B25;
+    font-size: 2rem;
+}
 
 
-/* Mobile (up to 600px) */
-@media (max-width: 600px) {
+
+
+/* Mobile (up to 575px) */
+@media (max-width: 575px) {
     footer{
         font-size: .85rem;
     }
+
 
     /* INDEX PAGE BREAKPOINTS */
         #home-page-title{
             font-size: 75px; 
             text-align: center;
         }
-
         .home-page-img{
             width: auto;
             max-height: 350px;
@@ -81,31 +112,62 @@ footer a{
             padding: 0;
             border-radius: 10px;
         }
-
         #home-page-para{
             text-indent: 25px;
             margin-top: 25px;
             line-height: 2;
             text-align: justify;
         }
-
+       
 }
 
-/* Tablet (601px to 1024px) */
-@media (min-width: 601px) and (max-width: 1024px) {
+/* Tablet (576px to 1024px) */
+@media (min-width: 576px) and (max-width: 1024px) {
     /* Styles for tablets */
-    .home-page-img{
-        width: auto;
-        max-height: 450px;
-        margin-bottom: 25px;
-        padding: 0;
-        border-radius: 10px;
-    }
+
+    /* INDEX.HMTL BREAKPOINT*/
+        .home-page-img{
+            width: auto;
+            max-height: 450px;
+            margin-bottom: 25px;
+            padding: 0;
+            border-radius: 10px;
+        }
+        #mobile-sidebar{
+            display: none;
+        }
+        #home-page-title{
+            text-align: center;
+            font-weight: bold;
+            font-size: 3rem;
+            padding-top: 20px;
+        }
+        .home-page-img{
+            width: auto;
+            max-height: 500px;
+            margin-bottom: 25px;
+            padding: 0;
+            border-radius: 10px;
+        }
+        #home-page-para{
+            text-indent: 25px;
+            margin-top: 25px;
+            line-height: 2.5;
+            text-align: justify;
+            font-size: 1.2rem;
+        }
+    
+
 }
 
 /* Desktop (1025px and up) */
 @media (min-width: 1025px) {
-    /* Styles for desktops */
+    
+    /* INDEX.HTML BREAKPOINT(S) */
+    #mobile-sidebar{
+        display: none;
+    }
+
 }
 
 

@@ -1,16 +1,17 @@
 
 > INDEX.HTML (HOME PAGE)
-    ❌ upload image of Erika
+    ✅ upload image of Erika (Placeholder)
+        ❌ Have Erika pic her pfp
     ✅ select font style 
     ❌ style footer
-    ❌ craft home page bio section
+    ✅ craft home page bio section
+        ❌ Have Erika's approval
     ❌ Mobile layout
-        ❌ set up mobile sidebar
+        ✅ set up mobile sidebar
     ❌ Tablet layout
         ❌ set up active sidebar
     ❌ Desktop layout
         ❌ horizontal navbar? 
     ❌ Make page responsive
     ❌ Style entire page
-        ❌ Change background image  
-            > blank canvas image 
+        ✅ Change background to blank canvas image 

@@ -15,9 +15,9 @@
         ✅ center Erika's name
         ✅ increase paragraph line space
         ✅ apply floating button animation
-        ❌ BUG: footer needs to connect with main body content
+        ❌ BUG: footer needs to connect with main body content (ALEX)
     ❌ Desktop layout
-        ❌ horizontal navbar? 
+        ❌ 🚧 horizontal navbar? 🚧
     ❌ Make page responsive
     ❌ Style entire page
         ✅ Change background to blank canvas image 

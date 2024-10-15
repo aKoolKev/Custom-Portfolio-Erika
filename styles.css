@@ -81,17 +81,6 @@ footer a{
     text-decoration: none;
 }
 
-/* button{
-    background-color: #618B25;
-    border-radius: 15px;
-    padding: 10px;
-    color: white;
-    border: 2px solid #533E2D;
-    text-align: center;
-    font-family: 'Sabon Next LT', sans-serif;
-    text-decoration: none;
-} */
-
 .about-page-button{
     background-color: #618B25;
     border-radius: 15px;
@@ -104,7 +93,8 @@ footer a{
     min-width: 130px;
 }
 
-button:hover {
+
+ button:hover, button a:hover {
     background-color: #E0E1DD;
     color: #533E2D;
     animation: none;
@@ -135,16 +125,21 @@ button:hover {
 }
 
 .tablet-sidebar-button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+/* style a tag as button */
+.tablet-sidebar-button a {
+    display: block;
     background-color: #618B25;
-    border-radius: 15px;
-    padding: 10px;
     color: white;
     border: 2px solid #533E2D;
-    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
     font-family: 'Sabon Next LT', sans-serif;
     text-decoration: none;
-    
-    width: 100%;
 }
 
 #home-page-title{

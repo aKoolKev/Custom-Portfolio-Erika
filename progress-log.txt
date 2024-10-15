@@ -14,10 +14,25 @@
         ✅ center Erika's name
         ✅ increase paragraph line space
         ✅ apply floating button animation
-        ❌ BUG: footer needs to connect with main body content (ALEX)
+        ✅ BUG: footer needs to connect with main body content
     ✅  Desktop layout 
         ✅ horizontal navbar
         ✅  2 column layout 
     ✅ Make entire page responsive
     ✅ Style entire page
         ✅ Change background to blank canvas image 
+
+> ABOUT.HTML (Who's Erika)
+    ✅ Link style sheet
+    ❌ Mobile layout
+    ❌ Tablet layout
+    ❌ Laptop layout
+        ✅ Add horizontal navbar
+    
+    ✅ Add footer
+
+    ❌ Add content
+        ❌ Erika bio
+            ❌ Fun facts
+            ❌ Hobbies
+            ❌ Goals

@@ -19,6 +19,73 @@
     </head>
     <body>
         <header>
+            <!-- MOBILE SIDEBAR NAVIGATION -->
+            <!-- Display only on small screen -->
+            <aside class="navbar fixed-top" id="mobile-sidebar">
+                <div class="container">
+
+                    <!-- Shift Hamburger button to the right -->
+                    <a class="navbar-brand"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span>
+                            <!-- Credit: https://icons.getbootstrap.com/icons/list/ -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                            </svg>
+                        </span>
+                    </button>
+
+                    <!-- Sidebar container -->
+                    <div class="offcanvas offcanvas-end w-50 font-sabon" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <!-- Sidebar header -->
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">EXPLORE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div> 
+                        <!-- Sidebar body -->
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <!-- PAGE #1: INDEX.HTML -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+
+                            <!-- ABOUT -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ABOUT
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- PAGE #2: about.html -->
+                                    <li><a class="dropdown-item" href="about.html">WHO'S ERIKA?</a></li>
+                                    
+                                    <!-- PAGE #3: resume.html -->
+                                    <li><a class="dropdown-item" href="resume.html">MY RESUME</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- PAGE #4: works.html -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="works.html">WORKS</a>
+                            </li>
+
+                            <!-- PAGE #5: service.html -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">SERVICE</a>
+                            </li>
+
+                            <!-- PAGE #6: contact.html -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+
             <!-- LAPTOP HORIZONTAL NAV BAR -->
             <!-- Display only on laptop screens-->
             <nav class="navbar navbar-expand-md mb-5 p-3" id="laptop-horizontal-navbar">
@@ -46,16 +113,106 @@
                 </div>
               </nav>
 
-            <h1 id="home-page-title">Who Am I?</h1>
+            <h1 style="text-transform: uppercase;" id="home-page-title">Who Am I?</h1>
         </header>
 
         <!--MAIN CONTENT SECTION -->
         <main>
+            <h2 style="text-transform: uppercase;" >Erika Napier</h2>
+            <p style="text-indent: 15px;">
+                "Insert text here..."
+            </p>
+
+            <!-- FUN FACTS -->
+            <h2 style="text-transform: uppercase;">Fun Facts</h2>
+            <ul>
+                <li>
+                    I love cats! I currently have five cats: 
+                    Frankie, River, Azula, Garden, and Sappy.
+                </li>
+                <li> 
+                    I also have a German Shepherd. Her name is Amaya!
+                </li>
+                <li>
+                    I am an artist and an art historian!
+                </li>
+                <li>
+                    My favorite art movement is Dada!
+                </li>
+                <li>
+                    I have lived in California, Washington, 
+                    Connecticut, and Oklahoma. I have also been out of country: Japan.                                  
+                </li>
+                <li>
+                    I am half Filipino! 
+                </li>
+                <li>
+                    The Summer of 2024, I opened up a depot online store to give old clothes new homes,
+                    promoting reusability.
+                </li>
+            </ul>
+
+            <!-- Inspiration-->
+            <h2 style="text-transform: uppercase;">Inspiration</h2>
+            <p style="text-indent:25px;">
+                The person I look up to is my oldest sister, Maiko.
+                She is supportive during tough times, dependable when I need aid, and my built-in best friend. 
+            </p>
+        
+            <!-- Favorite song -->
+            <h2 style="text-transform: uppercase;">Current Favorite Song</h2>
+            <!-- Link to music on youtube -->
+            <p style="text-indent:25px;">"Suburban Blues" by The Aces </p>
+            <p style="font-style: italic; text-indent:50px;"> * I listen to this song an unhealthy amount :P </p>
+
+            <!-- HOBBIES -->
+            <h2 style="text-transform: uppercase;">HOBBIES</h2>
+            <p>I enjoy charcoal drawing, sketching, painting, and making ceramics. My favorite of them all is COLLAGING. </p>
+            <ul>
+                <li>
+                    <h5 style="text-transform: uppercase;">Creative story writing</h5>
+                    <p>
+                        "I am currently working on a novel about a young veterinary technician and a newly graduated dental hygienist, 
+                        both facing newfound responsibilities as they navigate the challenges of World War I in Europe.
+                    </p>
+                </li>
+
+                <li>
+                    <h5 style="text-transform: uppercase;">Thifting</h5>
+                    <p>
+                        My earliest memory of thrifting was going to a thrift store back in Washington with my mom and finding Barbies in plastic bags. 
+                        It is a part of me now, and you can find treasure for a fraction of the price! 
+                        Although it is cost-effective, I am all for sustainability.
+                    </p>
+                </li>
+
+                <li>
+                    <h5 style="text-transform: uppercase;">Reading</h5>
+                    <p>
+                        I am actively building up my library for my dream house in the future!
+                    </p>
+                </li>
+            </ul>
+
+            <h2 style="text-transform: uppercase;">Goals</h2>
+            <ul>
+                <li>
+                    After obtaining my degree in Art History, I want to build up my experiences to one day work at well-known art institutions such as the 
+                    St. Louis Art Museum (SLAM), the Metropolitan Museum of Art (MET), or the Art Institute of Chicago.
+                </li>
+                <li>
+                    I enjoy traveling and hope to travel the world. For now, I would love to explore all of Europe and visit my mother's home country, the Philippines.
+                </li>
+                <li>
+                    I want to finish the short novel I am working on and share it with others!
+                </li>
+            </ul>
+
 
         </main>
 
         <footer>
-            <p> &copy; 2024 Erika Napier | All rights reserved <a href="#"> | Back to Top</a></p>
+            <p> &copy; 2024 Erika Napier | All rights reserved <a href="#"> | Back to Top </a></p>
         </footer> 
 
         <!-- Linking Bootstrap JS library -->

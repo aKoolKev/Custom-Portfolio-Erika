@@ -119,7 +119,7 @@
         <!--MAIN CONTENT SECTION -->
         <main class="container-fluid">
             <!-- ROW #1: BIO --> 
-            <article class="row text-center">
+            <article class="row text-center mt-5">
                 <!-- R1, C1 -->
                 <div class="col d-flex flex-column align-items-center justify-content-center">
                     <h2 class="about-page-heading">Erika Napier</h2>
@@ -134,30 +134,32 @@
             </article> <!-- End of ROW 1 -->
 
             <!-- ROW #2: FUN FACTS-->
-            <article class="row">
-                <div class="col">
+            <article class="row my-5">
+
+                <!-- r2, c1 -->
+                <div class="col text-center">
                     <h2 style="text-transform: uppercase; text-align: center;">Fun Facts</h2>
 
-                    <p>I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy</p>
+                    <p>I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy...</p>
 
                     <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
-                    <div id="cat-carousel" class="carousel slide">
+                    <div id="cat-carousel" class="carousel slide w-50 mx-auto">
                         <div class="carousel-inner">
-                        
+                            
                             <div class="carousel-item active">
-                                <img src="images/" class="d-block w-100" alt="Frankie">
+                                <img src="images/frankie.jpg" class="d-block w-100" alt="A image of the cat, Frankie">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/" class="d-block w-100" alt="River">
+                                <img src="images/river.jpg" class="d-block w-100" alt="A image of the cat, River">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/" class="d-block w-100" alt="Azula">
+                                <img src="images/azula.jpg" class="d-block w-100" alt="A image of the cat, Azula">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/" class="d-block w-100" alt="Garden">
+                                <img src="images/garden.jpg" class="d-block w-100" alt="A image of the cat, Garden">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/" class="d-block w-100" alt="Sappy">
+                                <img src="images/sappy.jpg" class="d-block w-100" alt="A image of the cat, Sappy">
                             </div>
 
                         </div>
@@ -172,34 +174,48 @@
                         </button>
                     </div>
 
-                    <ul>
-                
-                        <li> 
-                            I also have a German Shepherd. Her name is Amaya!
-                        </li>
-                        <li>
-                            I am an artist and an art historian!
-                        </li>
-                        <li>
-                            My favorite art movement is Dada!
-                        </li>
-                        <li>
-                            I have lived in California, Washington, 
-                            Connecticut, and Oklahoma. I have also been out of country: Japan.                                  
-                        </li>
-                        <li>
-                            I am half Filipino! 
-                        </li>
-                        <li>
-                            The Summer of 2024, I opened up a depot online store to give old clothes new homes,
-                            promoting reusability.
-                        </li>
-                    </ul>
-                </div>
+                    <!-- r2, c1, nested row#1 -->
+                    <div class="row text-center mt-5" style="background-color: aqua;">
+                        <!-- nested row c1 -->
+                        <div class="col my-auto">
+                            <p> ...I also have a German Shepherd named Amaya!</p>
+                        </div>
+
+                        <!-- nested row c2 -->
+                        <div class="col">
+                            <img src="images/amaya.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
+                        </div>
+                    </div>
+
+                    <!-- r2, c1, nested row#2 -->
+                    <div class="row mt-5" style="background-color: aqua;">
+                        <!-- nested row 2 c1 -->
+                        <div class="col" style="text-align: left;">
+                            <ul>
+                                <li>
+                                    I am an artist and an art historian. My favorite art movement is Dada!
+                                </li>
+                                <li>
+                                    I have lived in California, Washington, 
+                                    Connecticut, and Oklahoma. I have also been out of country: Japan.                                  
+                                </li>
+                                <li>
+                                    I am half Filipino! 
+                                </li>
+                                <li>
+                                    The Summer of 2024, I opened up a depot online store to give old clothes new homes,
+                                    promoting reusability.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>  <!-- end r2, c1 -->
+
             </article> <!-- End of ROW 2 -->
 
             <!-- ROW #3: INSPIRATION -->
-            <article class="row">
+            <article class="row my-5">
                 <div class="col">
                     <!-- I-->
                     <h2 class="about-page-heading">Inspiration</h2>
@@ -211,7 +227,7 @@
             </article> <!-- End of ROW 3 -->
 
             <!-- ROW #4: FAVORITE SONG -->
-            <article class="row">
+            <article class="row my-5">
                 <div class="col">
                     <h2 class="about-page-heading">Current Favorite Song</h2>
                     <!-- Link to music on youtube -->
@@ -222,7 +238,7 @@
             
 
             <!-- ROW #5: HOBBIES -->
-            <article class="row">
+            <article class="row my-5">
                 <div class="col">
                     <h2 class="about-page-heading">HOBBIES</h2>
                     <p>I enjoy charcoal drawing, sketching, painting, and making ceramics. My favorite of them all is COLLAGING. </p>
@@ -255,7 +271,7 @@
             </article> <!-- End of ROW 5-->
 
             <!-- ROW #6: Goals -->
-            <article class="row">
+            <article class="row my-5">
                 <div class="col">
                     <h2 class="about-page-heading">Goals</h2>
                     <ul>

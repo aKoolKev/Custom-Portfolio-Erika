@@ -87,6 +87,9 @@ footer a{
     padding: 10px;
     color: white;
     border: 2px solid #533E2D;
+    text-align: center;
+    font-family: 'Sabon Next LT', sans-serif;
+    text-decoration: none;
 } */
 
 .about-page-button{
@@ -137,6 +140,10 @@ button:hover {
     padding: 10px;
     color: white;
     border: 2px solid #533E2D;
+    text-align: center;
+    font-family: 'Sabon Next LT', sans-serif;
+    text-decoration: none;
+    
     width: 100%;
 }
 

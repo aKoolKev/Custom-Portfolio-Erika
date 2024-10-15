@@ -3,7 +3,7 @@
     ✅ upload image of Erika (Placeholder)
         ❌ Have Erika pic her pfp
     ✅ select font style 
-    ❌ style footer
+    ✅ style footer
     ✅ craft home page bio section
         ❌ Have Erika's approval
     ✅ Mobile layout
@@ -15,9 +15,9 @@
         ✅ increase paragraph line space
         ✅ apply floating button animation
         ❌ BUG: footer needs to connect with main body content (ALEX)
-    ❌ 🚧 Desktop layout 🚧
+    ✅  Desktop layout 
         ✅ horizontal navbar
-        ❌ 🚧 2 column layout 🚧
-    ❌ Make page responsive
-    ❌ Style entire page
+        ✅  2 column layout 
+    ✅ Make entire page responsive
+    ✅ Style entire page
         ✅ Change background to blank canvas image 

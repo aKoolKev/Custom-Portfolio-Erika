@@ -226,6 +226,7 @@ button:hover {
     }
     .home-page-img-laptop{
         width: auto;
+        min-width: 350px;
         max-height: 600px;
     }
 

@@ -3,6 +3,7 @@
     animation: floating-up-down 3s ease-in-out infinite;
 }
 
+/* Animation Utility Classes */
 .animation-delay-1s{
     animation-delay: 1s;
 }
@@ -48,7 +49,7 @@
 
 header{
     /* background-color: rgba(255, 255, 0, 0.533); */
-    padding: 20px;
+    /* padding: 20px; */
     border: 2px solid black;
 }
 body{
@@ -70,6 +71,7 @@ footer{
     color: #533E2D;
     text-align: center;
     padding: 10px;
+    margin-top: 50px;
 }
 footer p{
     margin:0;
@@ -122,6 +124,7 @@ button:hover {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    color: #618B25;
 }
 
 #home-page-subheading{
@@ -136,16 +139,43 @@ button:hover {
     padding: 0;
     border-radius: 10px;
 }
+.home-page-img-laptop{
+    display: none;
+    width: auto;
+    max-height: 500px;
+    margin-bottom: 25px;
+    padding: 0;
+    border-radius: 10px;
+}
+#home-page-para{
+    text-indent: 25px;
+    margin-top: 25px;
+    text-align: justify;
+  
+    line-height: 2.5;
+    font-size: 1.2rem;
+}
 
+#laptop-horizontal-navbar{
+    display: none;
+}
 
+#laptop-horizontal-navbar .nav-item .nav-link, #laptop-horizontal-navbar .navbar-brand{
+    transition: transform 0.2s ease-in-out;
+    color: #533E2D;
+}
 
+#laptop-horizontal-navbar .nav-item .nav-link:hover, #laptop-horizontal-navbar .navbar-brand:hover{
+    transform: scale(1.2);
+    color: #618B25;
+    font-weight: bold;
+}
 
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
     footer{
         font-size: .85rem;
     }
-
 
     /* INDEX PAGE BREAKPOINTS */
         .home-page-img{
@@ -156,10 +186,7 @@ button:hover {
             border-radius: 10px;
         }
         #home-page-para{
-            text-indent: 25px;
-            margin-top: 25px;
             line-height: 2;
-            text-align: justify;
         }
        
 }
@@ -179,20 +206,7 @@ button:hover {
         #mobile-sidebar{
             display: none;
         }
-        /* .home-page-img{
-            width: auto;
-            max-height: 500px;
-            margin-bottom: 25px;
-            padding: 0;
-            border-radius: 10px;
-        } */
-        #home-page-para{
-            text-indent: 25px;
-            margin-top: 25px;
-            line-height: 2.5;
-            text-align: justify;
-            font-size: 1.2rem;
-        }
+        
     
 
 }
@@ -204,7 +218,16 @@ button:hover {
     #mobile-sidebar, #tablet-sidebar{
         display: none;
     }
-    
+    #laptop-horizontal-navbar, .home-page-img-laptop{
+        display: block;
+    }
+    .home-page-img{
+        display: none;
+    }
+    .home-page-img-laptop{
+        width: auto;
+        max-height: 600px;
+    }
 
 }
 

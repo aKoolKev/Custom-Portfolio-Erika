@@ -8,7 +8,6 @@
         ❌ Have Erika's approval
     ✅ Mobile layout
         ✅ set up mobile sidebar
-        ❌ create floating button animation
     ✅ Tablet layout 
         ✅ set up active vertical sidebar
         ✅ hide mobile sidebar
@@ -16,8 +15,9 @@
         ✅ increase paragraph line space
         ✅ apply floating button animation
         ❌ BUG: footer needs to connect with main body content (ALEX)
-    ❌ Desktop layout
-        ❌ 🚧 horizontal navbar? 🚧
+    ❌ 🚧 Desktop layout 🚧
+        ✅ horizontal navbar
+        ❌ 🚧 2 column layout 🚧
     ❌ Make page responsive
     ❌ Style entire page
         ✅ Change background to blank canvas image 

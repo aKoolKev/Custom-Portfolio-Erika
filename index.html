@@ -88,9 +88,37 @@
                 </div>
             </aside>
 
+            <!-- LAPTOP HORIZONTAL NAV BAR -->
+            <!-- Display only on laptop screens-->
+            <nav class="navbar navbar-expand-md mb-5" id="laptop-horizontal-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">HOME</a>
+            
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">WHO'S ERIKA?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">RESUME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="works.html">WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">SERVICE</a>
+                        </li>
+                    </ul>
+
+                </div>
+              </nav>
+
             <h1 id="home-page-title">ERIKA NAPIER</h1>
         </header>
 
+        <!-- MAIN CONTENT -->
         <main class="container-fluid">
 
             <!-- ROW #1 -->
@@ -101,7 +129,7 @@
                 <div class="col-sm-3 d-none d-sm-block d-md-none" style="border: 2px solid cyan;">
                     <ul id="tablet-sidebar">
                         <li><button class="tablet-sidebar-button floating-up-down">HOME</button></li>
-                        <li><button class="tablet-sidebar-button floating-up-down animation-delay-1s">WHO'S ERIKA?</button></li>
+                        <li><button class="tablet-sidebar-button floating-up-down animation-delay-1s" href="about.html">WHO'S ERIKA?</button></li>
                         <li><button class="tablet-sidebar-button floating-up-down animation-delay-2s">RESUME</button></li>
                         <li><button class="tablet-sidebar-button floating-up-down animation-delay-3s">CONTACT</button></li>
                         <li><button class="tablet-sidebar-button floating-up-down animation-delay-1s">WORKS</button></li>
@@ -110,10 +138,10 @@
                 </div>
 
                 <!-- COL #2 -->
-                <article class="col-12 col-sm-9 text-center p-5" style="border: 2px solid red;">
+                <article class="col-12 col-sm-9 col-lg-5 text-center p-5 mt-5" style="border: 2px solid red;">
                     
-                    <!-- IMAGE OF ERIKA -->
-                    <img class="img-fluid home-page-img" src="images/Erika PFP.jpeg" alt="An image of Erika.">
+                    <!-- IMAGE OF ERIKA (This one is only visible on mobile and tablet view)-->
+                    <img class="img-fluid home-page-img mx-auto" src="images/Erika PFP.jpeg" alt="An image of Erika.">
 
                     <h2 id="home-page-subheading">Welcome to My Portfolio!</h2>
 
@@ -125,12 +153,21 @@
                     </p>
                 </article>
 
+                <!--  -->
+                <div class="col-lg-5 d-none d-lg-block mt-5" style="border: 10px dotted blue; height: 100vh;">
+                    <!-- IMAGE OF ERIKA -->
+                    <img class="img-fluid home-page-img-laptop mx-auto p-5" src="images/Erika PFP.jpeg" alt="An image of Erika.">
+                </div>
+                
+
             </div> <!--End of ROW 1-->
         </main>
 
         <footer>
             <p> &copy; 2024 Erika Napier | All rights reserved <a href="#"> | Back to Top</a></p>
         </footer> 
+
+        <!-- Linking Bootstrap JS library -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

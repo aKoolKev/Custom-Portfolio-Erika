@@ -81,6 +81,11 @@ footer a{
     text-decoration: none;
 }
 
+button:hover {
+    background-color: #E0E1DD;
+    color: #533E2D;
+    animation: none;
+}
 
 /* INDEX.HTML STYLES */
 #mobile-sidebar{
@@ -112,12 +117,6 @@ footer a{
     color: white;
     border: 2px solid #533E2D;
     width: 100%;
-}
-
-button:hover {
-    background-color: #E0E1DD; /* Corrected property */
-    color: #533E2D;
-    animation: none;
 }
 
 #home-page-title{
@@ -169,6 +168,11 @@ button:hover {
     transform: scale(1.2);
     color: #618B25;
     font-weight: bold;
+}
+
+/* ABOUT PAGE STYLES */
+.col{
+    border: 5px double rgb(5, 30, 255);
 }
 
 /* Mobile (up to 575px) */

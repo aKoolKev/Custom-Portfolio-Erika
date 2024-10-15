@@ -24,7 +24,9 @@
 
 > ABOUT.HTML (Who's Erika)
     ✅ Link style sheet
-    ❌ Mobile layout
+    ❌ 🚧 Mobile layout 🚧
+        ✅ Create rows for each content
+        ❌ Select pfp of Erika for about page  
     ❌ Tablet layout
     ❌ Laptop layout
         ✅ Add horizontal navbar

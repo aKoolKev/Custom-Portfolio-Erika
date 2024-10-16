@@ -118,12 +118,13 @@
 
         <!--MAIN CONTENT SECTION -->
         <main class="container-fluid">
+
             <!-- ROW #1: BIO --> 
             <article class="row text-center mt-5">
                 <!-- R1, C1 -->
                 <div class="col d-flex flex-column align-items-center justify-content-center">
-                    <h2 class="about-page-heading">Erika Napier</h2>
-                    <p style="text-indent: 15px;">
+                    <h2 class="about-page-heading color-green">Erika Napier</h2>
+                    <p class="about-page-text">
                         "Hi there! What you find below makes up the person I am today! Nice to meet you!"
                     </p>
                 </div>
@@ -138,12 +139,14 @@
 
                 <!-- r2, c1 -->
                 <div class="col text-center p-3">
-                    <h2 style="text-transform: uppercase; text-align: center;">Fun Facts</h2>
+                    <h2 class="color-green">FUN FACTS</h2>
 
-                    <p>I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy...</p>
+                    
+                    <p class="about-page-text">I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy...</p>
+        
 
                     <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
-                    <div id="cat-carousel" class="carousel slide w-50 mx-auto">
+                    <div id="cat-carousel" class="carousel slide w-75 mx-auto">
                         <div class="carousel-inner">
                             
                             <div class="carousel-item active">
@@ -178,7 +181,7 @@
                     <div class="row text-center mt-5" style="background-color: aqua;">
                         <!-- nested row c1 -->
                         <div class="col my-auto">
-                            <p> ...I also have a German Shepherd named Amaya!</p>
+                            <p class="about-page-text"> ...I also have a German Shepherd named Amaya!</p>
                         </div>
 
                         <!-- nested row c2 -->
@@ -195,7 +198,7 @@
                         </div>
                         <!-- nested row 2 c2 -->
                         <div class="col my-auto">
-                            <p> I am an artist and an art historian. My favorite art movement is Dada!</p>
+                            <p class="about-page-text"> I am an artist and an art historian. My favorite art movement is Dada!</p>
                         </div>
 
                     </div>
@@ -205,20 +208,20 @@
                         <!-- nested row 3 c1 -->
                         <div class="col p-3 d-flex flex-column align-items-center" style="text-align: left;">
                             <ul>
-                                <li>
+                                <li class="about-page-text">
                                     I have lived in California, Washington, Connecticut, and Oklahoma. 
                                     I have also been out of the country: Japan.                                
                                 </li>
-                                <li>
+                                <li class="about-page-text">
                                     I am half Filipino! 
-                                </li>
-                                <li>
+                                </li class="about-page-text">
+                                <li class="about-page-text">
                                     In the summer of 2024, I opened an online Depot store to give old clothes new homes, promoting reusability.
                                 </li>
                             </ul>
 
                             <!-- SEO Tatic: Link building -->
-                            <a href="service.html" class="about-page-button"> Go to Shop!</a>
+                            <a href="service.html" class="about-page-button"> Visit the Shop!</a>
                         </div>
                     </div>
 
@@ -230,8 +233,8 @@
             <article class="row my-5">
                 <div class="col p-3">
                     <!-- I-->
-                    <h2 class="about-page-heading">Inspiration</h2>
-                    <p style="text-indent:25px;">
+                    <h2 class="about-page-heading color-green">Inspiration</h2>
+                    <p style="text-indent:25px;" class="about-page-text">
                         The person I look up to is my oldest sister, Maiko.
                         She is supportive during tough times, dependable when I need aid, and my built-in best friend. 
                     </p>
@@ -240,11 +243,14 @@
 
             <!-- ROW #4: FAVORITE SONG -->
             <article class="row my-5">
-                <div class="col p-3">
-                    <h2 class="about-page-heading">Current Favorite Song</h2>
+                <div class="col p-3 d-flex flex-column align-items-center">
+                    <h2 class="about-page-heading mb-4 color-green">Current Favorite Song</h2>
                     <!-- Link to music on youtube -->
-                    <p style="text-indent:25px;">"Suburban Blues" by The Aces </p>
-                    <p style="font-style: italic; text-indent:50px;"> * I listen to this song an unhealthy amount :P </p>
+                    <h5>"Suburban Blues" by The Aces </h5>
+                    <p style="font-style: italic;" class="about-page-text"> * This is always my song request :P </p>
+    
+                    <iframe class="embedded-youtube-video" width="100%" height="315" src="https://www.youtube.com/embed/ja6Eu8cT-os?si=f93uCTXVZk9ewkR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
                 </div>
             </article> <!-- End of ROW 4 -->
             
@@ -252,20 +258,31 @@
             <!-- ROW #5: HOBBIES -->
             <article class="row my-5">
                 <div class="col p-3">
-                    <h2 class="about-page-heading">HOBBIES</h2>
-                    <p>I enjoy charcoal drawing, sketching, painting, and making ceramics. My favorite of them all is COLLAGING. </p>
+                    <h2 class="about-page-heading color-green">HOBBIES</h2>
+                    
+                    <!-- Font weight: https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics -->
                     <ul>
                         <li>
-                            <h5 style="text-transform: uppercase;">Creative story writing</h5>
-                            <p>
+                            <!-- Text uppercase: https://getbootstrap.com/docs/5.3/utilities/text/#text-transform -->
+                            <h5 class="fw-bold text-uppercase">Art & Craft</h5>
+                            <p class="about-page-text">I enjoy charcoal drawing, sketching, painting, and making ceramics, but my favorite of them all is collaging.</p>
+                            
+                            <img src="images/" alt="">
+
+                        </li>
+
+
+                        <li>
+                            <h5 class="fw-bold text-uppercase">Creative story writing</h5>
+                            <p class="about-page-text">
                                 "I am currently working on a novel about a young veterinary technician and a newly graduated dental hygienist, 
                                 both facing newfound responsibilities as they navigate the challenges of World War I in Europe.
                             </p>
                         </li>
         
                         <li>
-                            <h5 style="text-transform: uppercase;">Thifting</h5>
-                            <p>
+                            <h5 class="fw-bold text-uppercase">Thifting</h5>
+                            <p class="about-page-text">
                                 My earliest memory of thrifting was going to a thrift store back in Washington with my mom and finding Barbies in plastic bags. 
                                 It is a part of me now, and you can find treasure for a fraction of the price! 
                                 Although it is cost-effective, I am all for sustainability.
@@ -273,8 +290,8 @@
                         </li>
         
                         <li>
-                            <h5 style="text-transform: uppercase;">Reading</h5>
-                            <p>
+                            <h5 class="fw-bold text-uppercase">Reading</h5>
+                            <p class="about-page-text">
                                 I am actively building up my library for my dream house in the future!
                             </p>
                         </li>
@@ -287,14 +304,14 @@
                 <div class="col p-3">
                     <h2 class="about-page-heading">Goals</h2>
                     <ul>
-                        <li>
+                        <li class="about-page-text">
                             After obtaining my degree in Art History, I want to build up my experiences to one day work at well-known art institutions such as the 
                             St. Louis Art Museum (SLAM), the Metropolitan Museum of Art (MET), or the Art Institute of Chicago.
                         </li>
-                        <li>
+                        <li class="about-page-text">
                             I enjoy traveling and hope to travel the world. For now, I would love to explore all of Europe and visit my mother's home country, the Philippines.
                         </li>
-                        <li>
+                        <li class="about-page-text">
                             I want to finish the short novel I am working on and share it with others!
                         </li>
                     </ul>

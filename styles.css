@@ -94,7 +94,7 @@ footer a{
 }
 
 
- button:hover, button a:hover {
+ button:hover, button a:hover, .about-page-button:hover {
     background-color: #E0E1DD;
     color: #533E2D;
     animation: none;
@@ -206,10 +206,16 @@ footer a{
     text-align:center;
 }
 
+.about-page-text{
+    line-height: 2;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
     footer{
-        font-size: .85rem;
+        font-size: 1rem;
     }
 
     /* INDEX PAGE BREAKPOINTS */

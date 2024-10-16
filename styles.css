@@ -267,6 +267,9 @@ footer a{
         #home-page-para{
             line-height: 2;
         } 
+        #home-page-title{
+            font-size: 40px;
+        }
 }
 
 /* Tablet (576px to 850px) */

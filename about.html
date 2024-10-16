@@ -94,7 +94,8 @@
             
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">WHO'S ERIKA?</a>
+                            <a class="nav-link current-nav-location" href="about.html">
+                                WHO'S ERIKA?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="resume.html">RESUME</a>
@@ -117,7 +118,7 @@
         </header>
 
         <!--MAIN CONTENT SECTION -->
-        <main class="container-fluid">
+        <main class="about-page-container container-fluid">
 
             <!-- ROW #1: BIO --> 
             <article class="row text-center mt-5">
@@ -139,71 +140,74 @@
 
                 <!-- r2, c1 -->
                 <div class="col text-center p-3">
-                    <h2 class="color-green">FUN FACTS</h2>
+                    <h2 class="about-page-heading color-green">FUN FACTS</h2>
 
                     <p class="about-page-text text-center">I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy.</p>
 
-                    <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
-                    <div id="cat-carousel" class="carousel slide mx-auto">
-                        <div class="carousel-inner">
-                            
-                            <div class="carousel-item active">
-                                <img src="images/frankie.jpg" class="d-block w-100" alt="A image of the cat, Frankie">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/river.jpg" class="d-block w-100" alt="A image of the cat, River">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/azula.jpg" class="d-block w-100" alt="A image of the cat, Azula">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/garden.jpg" class="d-block w-100" alt="A image of the cat, Garden">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sappy.jpg" class="d-block w-100" alt="A image of the cat, Sappy">
-                            </div>
+                    <div class="cat-carousel-container container-fluid">
 
+                        <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
+                        <div id="cat-carousel" class="carousel slide mx-auto">
+                            <div class="carousel-inner">
+                                
+                                <div class="carousel-item active">
+                                    <img src="images/frankie.jpg" class="d-block w-100" alt="A image of the cat, Frankie">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/river.jpg" class="d-block w-100" alt="A image of the cat, River">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/azula.jpg" class="d-block w-100" alt="A image of the cat, Azula">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/garden.jpg" class="d-block w-100" alt="A image of the cat, Garden">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/sappy.jpg" class="d-block w-100" alt="A image of the cat, Sappy">
+                                </div>
+    
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#cat-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#cat-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#cat-carousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#cat-carousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
 
                     <!-- r2, c1, nested row#1 -->
-                    <div class="row text-center mt-5" style="background-color: aqua;">
+                    <div class="row text-center mt-5">
                         <!-- nested row c1 -->
-                        <div class="col my-auto">
+                        <div class="col col-md-6 my-auto">
                             <p class="about-page-text"> I also have a German Shepherd named Amaya!</p>
                         </div>
 
                         <!-- nested row c2 -->
-                        <div class="col-sm-12 p-3">
+                        <div class="col-sm-12 col-md-6 p-3">
                             <img src="images/amaya.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
                         </div>
                     </div>
 
                     <!-- r2, c1, nested row#2 -->
-                    <div class="row text-center mt-5" style="background-color: aqua;">
+                    <div class="row text-center mt-5">
                         <!-- nested row 2 c1 -->
-                        <div class="col my-auto">
+                        <div class="col col-md-6 order-2 my-auto">
                             <p class="about-page-text"> I am an artist and an art historian. My favorite art movement is Dada!</p>
                         </div>
 
                         <!-- nested row 2 c2 -->
-                        <div class="col-sm-12 p-3">
+                        <div class="col-sm-12 col-md-6 order-1 p-3">
                             <img src="images/dada-artwork-1.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
                         </div>
                         
                     </div>
 
                     <!-- r2, c1, nested row#3 -->
-                    <div class="row mt-5" style="background-color: aqua;">
+                    <div class="row mt-5">
                         <!-- nested row 3 c1 -->
                         <div class="col p-3 d-flex flex-column align-items-center" style="text-align: left;">
                             <ul>
@@ -230,17 +234,17 @@
 
             <!-- ROW #3: INSPIRATION -->
             <article class="row my-5">
-                <div class="col p-3">
+                <div class="col col-md-5 order-md-2 p-3">
                     <h2 class="about-page-heading color-green">Inspiration</h2>
                     <p style="text-indent:25px;" class="about-page-text">
                         The person I look up to is my oldest sister, Maiko.
                         She is supportive during tough times, dependable when I need aid, and my built-in best friend. 
                     </p>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-4 order-md-1 my-auto">
                     <img src="images/Maiko and Erika.jpeg" alt="Picture of Maiko and Erika #1" class="about-page-img">
                 </div>
-                <div class="col mt-3">
+                <div class="col mt-3 col-md-3 order-md-3 ">
                     <img src="images/maiko and erika 2.jpeg" alt="Picture of Maiko and Erika #2" class="about-page-img">
                 </div>
             </article> <!-- End of ROW 3 -->
@@ -253,8 +257,9 @@
                     <h5>"Suburban Blues" by The Aces </h5>
                     <p style="font-style: italic;" class="about-page-text"> * This is always my song request :P </p>
     
-                    <iframe class="embedded-youtube-video" width="100%" height="315" src="https://www.youtube.com/embed/ja6Eu8cT-os?si=f93uCTXVZk9ewkR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                
+                    <div class="col-sm-10 col-md-8">    
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ja6Eu8cT-os?si=f93uCTXVZk9ewkR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </article> <!-- End of ROW 4 -->
             
@@ -264,14 +269,16 @@
                 <div class="col p-3">
                     
                     <!-- Font weight: https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics -->
-                    <ul id="about-page-ul">
+                    <ul class="about-page-ul">
                         <h2 class="about-page-heading color-green text-center">HOBBIES</h2>
                         <h5 class="fw-bold text-uppercase text-center mt-md-5">Art & Crafts</h5>
-                        <li>
-                            <!-- Text uppercase: https://getbootstrap.com/docs/5.3/utilities/text/#text-transform -->
-                            <p class="about-page-text">I enjoy charcoal drawing, sketching, painting, and making ceramics, but my favorite of them all is collaging.</p>
+                        <li class="row">
+                            <div class="col col-md-5">
+                                <!-- Text uppercase: https://getbootstrap.com/docs/5.3/utilities/text/#text-transform -->
+                                <p class="about-page-text">I enjoy charcoal drawing, sketching, painting, and making ceramics, but my favorite of them all is collaging.</p>
+                            </div>
                             
-                            <div class="text-center">
+                            <div class="col-sm-12 col-md-7 text-center">
                                 <img src="images/cat-collage-clear-background.jpeg" alt="Photo of cat collage in front of a gray background." class="img-fluid about-page-img ">
                             </div>
                         </li>
@@ -313,7 +320,7 @@
             <article class="row my-5">
                 <div class="col p-3 p-md-5">
                     <h2 class="about-page-heading color-green">Goals</h2>
-                    <ul>
+                    <ul class="about-page-ul">
                         <li class="about-page-text p-md-3" >
                             After obtaining my degree in Art History, I want to build up my experiences to one day work at well-known art institutions such as the 
                             St. Louis Art Museum (SLAM), the Metropolitan Museum of Art (MET), or the Art Institute of Chicago.

@@ -100,7 +100,6 @@ footer a{
     animation: none;
 }
 
-
 /* INDEX.HTML STYLES */
 #mobile-sidebar{
     background-color: transparent;
@@ -193,6 +192,11 @@ footer a{
     font-weight: bold;
 }
 
+.current-nav-location{
+    font-weight: bold; 
+    padding-right:20px;
+}
+
 /* ABOUT PAGE STYLES */
 .col{
     border: 5px double rgb(5, 30, 255);
@@ -202,6 +206,7 @@ footer a{
     height: auto;
     max-width: 350px;
     height: auto;
+    border-radius: 15px;
 }
 .about-page-heading{
     text-transform: uppercase;
@@ -214,10 +219,22 @@ footer a{
     text-align: justify;
 }
 
+.cat-carousel-container{
+    background-color: gray;
+    width: 100%;
+}
+
 #cat-carousel{
     width: 90%;
     max-width: 400px;
     height: auto;
+}
+#cat-carousel img{
+    border-radius: 15px;
+}
+
+.about-page-container h5{
+    text-decoration: underline;
 }
 
 
@@ -280,6 +297,35 @@ footer a{
         width: auto;
         min-width: 350px;
         max-height: 600px;
+    }
+
+    /* ABOUT PAGE BREAKPOINT */
+    .about-page-img{
+        max-width: 475px;
+    }
+
+    .about-page-text{
+        font-size: 1.5rem;
+        width: 50%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .about-page-heading{
+        font-size: 2.3rem;
+    }
+    
+    .about-page-ul li{
+        list-style-type: none;
+    }
+
+    .about-page-container {
+        width: 85%;
+    }
+
+    .about-page-container h5{
+        font-size: 2rem;
+        text-decoration: underline;
     }
 
 }

@@ -18,6 +18,7 @@
 }
 
 
+/* Vertical sidebar buttons floating animation */
 @keyframes floating-up-down{
     0% {
         transform: translateY(0); /* Initial position */
@@ -46,6 +47,7 @@
 }
 
 
+/* STYLES FOR ALL WEBPAGES */
 header{
     /* background-color: rgba(255, 255, 0, 0.533); */
     /* padding: 20px; */
@@ -79,24 +81,37 @@ footer a{
     color:#533E2D;
     text-decoration: none;
 }
-
-.about-page-button{
-    background-color: #618B25;
-    border-radius: 15px;
-    padding: 10px;
-    color: white;
-    border: 2px solid #533E2D;
-    text-align: center;
-    font-family: 'Sabon Next LT', sans-serif;
-    text-decoration: none;
-    min-width: 130px;
+footer a:hover{
+    color: #618B25;
+    font-weight: bold;
 }
 
-
- button:hover, button a:hover, .about-page-button:hover {
-    background-color: #E0E1DD;
+button:hover, button a:hover, .about-page-button:hover {
     color: #533E2D;
+    background-color: #E0E1DD;
     animation: none;
+}
+
+#Laptop-Horizontal-Navbar, #Laptop-Horizontal-Navbar-index{
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+#Laptop-Horizontal-Navbar .navbar-toggler{
+    background-color: #618B25;
+}
+
+#Laptop-Horizontal-Navbar .nav-item .nav-link, #Laptop-Horizontal-Navbar .navbar-brand{
+    color: #533E2D;
+}
+
+#Laptop-Horizontal-Navbar .nav-item .nav-link:hover, #Laptop-Horizontal-Navbar .navbar-brand:hover, #Laptop-Horizontal-Navbar-index .nav-item .nav-link:hover, #Laptop-Horizontal-Navbar-index .navbar-brand:hover{
+    color: #618B25;
+    font-weight: bold;
+}
+
+.current-nav-location{
+    font-weight: bold; 
+    padding-right:20px;
 }
 
 /* INDEX.HTML STYLES */
@@ -104,14 +119,6 @@ footer a{
     background-color: transparent;
 }
 #mobile-sidebar button{
-    background-color: #618B25;
-}
-
-#mobile-sidebar-2{
-    background-color: transparent;   
-}
-
-#mobile-sidebar-2 button{
     background-color: #618B25;
 }
 
@@ -153,6 +160,8 @@ footer a{
     font-size: 3rem;
     font-weight: bold;
     color: #618B25;
+    text-transform: uppercase;
+    margin-top:10vh;
 }
 
 #home-page-subheading{
@@ -184,25 +193,6 @@ footer a{
     font-size: 1.2rem;
 }
 
-#laptop-horizontal-navbar{
-    display: none;
-}
-
-#laptop-horizontal-navbar .nav-item .nav-link, #laptop-horizontal-navbar .navbar-brand{
-    transition: transform 0.2s ease-in-out;
-    color: #533E2D;
-}
-
-#laptop-horizontal-navbar .nav-item .nav-link:hover, #laptop-horizontal-navbar .navbar-brand:hover, footer a:hover{
-    transform: scale(1.2);
-    color: #618B25;
-    font-weight: bold;
-}
-
-.current-nav-location{
-    font-weight: bold; 
-    padding-right:20px;
-}
 
 /* ABOUT PAGE STYLES */
 .col{
@@ -224,6 +214,18 @@ footer a{
     line-height: 2;
     font-size: 1.1rem;
     text-align: justify;
+}
+
+.about-page-button{
+    background-color: #618B25;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    border: 2px solid #533E2D;
+    text-align: center;
+    font-family: 'Sabon Next LT', sans-serif;
+    text-decoration: none;
+    min-width: 130px;
 }
 
 .cat-carousel-container{
@@ -249,7 +251,6 @@ footer a{
     border-radius: 20px;
 }
 
-
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
     footer{
@@ -257,24 +258,39 @@ footer a{
     }
 
     /* INDEX PAGE BREAKPOINTS */
-        .home-page-img{
-            width: auto;
-            max-height: 350px;
-            margin-bottom: 25px;
-            padding: 0;
-            border-radius: 10px;
-        }
-        #home-page-para{
-            line-height: 2;
-        } 
-        #home-page-title{
-            font-size: 40px;
-        }
+    .home-page-img{
+        width: auto;
+        max-height: 350px;
+        margin-bottom: 25px;
+        padding: 0;
+        border-radius: 10px;
+    }
+    #home-page-para{
+        line-height: 2;
+    } 
+    #home-page-title{
+        font-size: 40px;
+        margin: 5vh;
+    }
+
+    /* CONTACT PAGE BREAKPOINTS */
+    #Laptop-Horizontal-Navbar-index, #Laptop-Horizontal-Navbar{
+        display: none;
+    }
+
+
 }
 
 /* Tablet (576px to 850px) */
 @media (min-width: 576px) and (max-width: 850px) {
-    /* Styles for tablets */
+    
+    #mobile-sidebar{
+        display: none;
+    }
+
+    .navLinkNavBrand{
+        display: block;
+    }
 
     /* INDEX.HMTL BREAKPOINT*/
         .home-page-img{
@@ -284,18 +300,19 @@ footer a{
             padding: 0;
             border-radius: 10px;
         }
-        #mobile-sidebar{
+    
+        #Laptop-Horizontal-Navbar-index{
             display: none;
         }
-    
+
 
     /* ABOUT PAGE BREAKPOINTS */
-        #mobile-sidebar-2{
-            display: block;
-        }
         .hide-at-850px {
             display: none !important; /* Forces the column to be hidden */
         }
+
+    /* CONTACT PAGE BREAKPOINTS */
+
 
 }
 
@@ -303,10 +320,10 @@ footer a{
 @media (min-width: 850px) {
     
     /* INDEX.HTML BREAKPOINT(S) */
-    #mobile-sidebar, #mobile-sidebar-2, #tablet-sidebar{
+    #mobile-sidebar, #tablet-sidebar{
         display: none;
     }
-    #laptop-horizontal-navbar, .home-page-img-laptop{
+    .home-page-img-laptop{
         display: block;
     }
     .home-page-img{
@@ -348,6 +365,8 @@ footer a{
         text-decoration: underline;
     }
 
+    /* CONTACT PAGE BREAKPOINTS */
+    
 }
 
 

@@ -24,18 +24,18 @@
 
 > ABOUT.HTML (Who's Erika)
     ✅ Link style sheet
-    ❌ 🚧 Mobile layout 🚧
+    ✅ 🚧 Mobile layout 🚧
         ✅ Create rows for each content
-        ❌ Select pfp of Erika for about page  
-    ❌ Tablet layout
-    ❌ Laptop layout
+        ✅ Select pfp of Erika for about page  
+    ✅ Tablet layout
+    ✅ Laptop layout
         ✅ Add horizontal navbar
     
     ✅ Add footer
 
-    ❌ Add content
-        ❌ Erika bio
-            ❌ Fun facts
+    ✅ Add content
+        ✅ Erika bio
+            ✅ Fun facts
                 - I love cats. Currently I have 5 of them: Frankie, River, Azula, Garden, and Sappy.
                     -But have a dog Amaya
                 - Artist and Art Historian
@@ -45,22 +45,31 @@
                 - Half Philipino 
                 - Run a Clothing shop (depot)
             
-            ❌ Inspriation
+            ✅ Inspriation
                 - Her older sister, Maiko.
                     - Supportive, friend, dependable
-                ❌ Image of Erika & Maiko together
+                ✅ Image of Erika & Maiko together
 
-            ❌ Favorite song: Surburban blues by the aces
+            ✅ Favorite song: Surburban blues by the aces
 
-            ❌ Hobbies
+            ✅ Hobbies
                 - Enjoy Charcol drawing, sketching, painting.
                     - Collaging
                 - Creative story writing
                 - Thrifting
                 - Reading
 
-            ❌ Goals
+            ✅ Goals
                 - Work at well-known art instituation: SLAM, MET, Chicago Art instituation
                 - Want to travel the world: All of Europe and Philines
                 - Finish up least year of College
                 - Finish self creative novel
+
+
+> CONTACT.HTML
+    ❌ Fix tablet navbar
+    ❌ Add email
+        ❌ social media handles
+        ❌ phone number
+        ❌ image
+    ❌ Fillable form to send email

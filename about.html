@@ -122,14 +122,14 @@
             <!-- ROW #1: BIO --> 
             <article class="row text-center mt-5">
                 <!-- R1, C1 -->
-                <div class="col d-flex flex-column align-items-center justify-content-center">
+                <div class="col col-md-6 d-flex flex-column align-items-center justify-content-center">
                     <h2 class="about-page-heading color-green">Erika Napier</h2>
                     <p class="about-page-text">
                         "Hi there! What you find below makes up the person I am today! Nice to meet you!"
                     </p>
                 </div>
                 <!-- R1, C2 -->
-                <div class="col p-3">
+                <div class="col-sm-12 col-md-6 p-3">
                     <img src="images/ErikaHoldingCatCollage.jpeg" alt="A picture of Erika." class="about-page-img">
                 </div>
             </article> <!-- End of ROW 1 -->
@@ -141,12 +141,10 @@
                 <div class="col text-center p-3">
                     <h2 class="color-green">FUN FACTS</h2>
 
-                    
-                    <p class="about-page-text">I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy...</p>
-        
+                    <p class="about-page-text text-center">I love cats! I currently have five cats: Frankie, River, Azula, Garden, and Sappy.</p>
 
                     <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
-                    <div id="cat-carousel" class="carousel slide w-75 mx-auto">
+                    <div id="cat-carousel" class="carousel slide mx-auto">
                         <div class="carousel-inner">
                             
                             <div class="carousel-item active">
@@ -181,11 +179,11 @@
                     <div class="row text-center mt-5" style="background-color: aqua;">
                         <!-- nested row c1 -->
                         <div class="col my-auto">
-                            <p class="about-page-text"> ...I also have a German Shepherd named Amaya!</p>
+                            <p class="about-page-text"> I also have a German Shepherd named Amaya!</p>
                         </div>
 
                         <!-- nested row c2 -->
-                        <div class="col p-3">
+                        <div class="col-sm-12 p-3">
                             <img src="images/amaya.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
                         </div>
                     </div>
@@ -193,14 +191,15 @@
                     <!-- r2, c1, nested row#2 -->
                     <div class="row text-center mt-5" style="background-color: aqua;">
                         <!-- nested row 2 c1 -->
-                        <div class="col p-3">
-                            <img src="images/dada-artwork-1.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
-                        </div>
-                        <!-- nested row 2 c2 -->
                         <div class="col my-auto">
                             <p class="about-page-text"> I am an artist and an art historian. My favorite art movement is Dada!</p>
                         </div>
 
+                        <!-- nested row 2 c2 -->
+                        <div class="col-sm-12 p-3">
+                            <img src="images/dada-artwork-1.jpeg" alt="A picture of a german shepherd, Amaya" class="about-page-img">
+                        </div>
+                        
                     </div>
 
                     <!-- r2, c1, nested row#3 -->
@@ -232,12 +231,17 @@
             <!-- ROW #3: INSPIRATION -->
             <article class="row my-5">
                 <div class="col p-3">
-                    <!-- I-->
                     <h2 class="about-page-heading color-green">Inspiration</h2>
                     <p style="text-indent:25px;" class="about-page-text">
                         The person I look up to is my oldest sister, Maiko.
                         She is supportive during tough times, dependable when I need aid, and my built-in best friend. 
                     </p>
+                </div>
+                <div class="col-sm-12">
+                    <img src="images/Maiko and Erika.jpeg" alt="Picture of Maiko and Erika #1" class="about-page-img">
+                </div>
+                <div class="col mt-3">
+                    <img src="images/maiko and erika 2.jpeg" alt="Picture of Maiko and Erika #2" class="about-page-img">
                 </div>
             </article> <!-- End of ROW 3 -->
 
@@ -258,29 +262,35 @@
             <!-- ROW #5: HOBBIES -->
             <article class="row my-5">
                 <div class="col p-3">
-                    <h2 class="about-page-heading color-green">HOBBIES</h2>
                     
                     <!-- Font weight: https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics -->
-                    <ul>
+                    <ul id="about-page-ul">
+                        <h2 class="about-page-heading color-green text-center">HOBBIES</h2>
+                        <h5 class="fw-bold text-uppercase text-center mt-md-5">Art & Crafts</h5>
                         <li>
                             <!-- Text uppercase: https://getbootstrap.com/docs/5.3/utilities/text/#text-transform -->
-                            <h5 class="fw-bold text-uppercase">Art & Craft</h5>
                             <p class="about-page-text">I enjoy charcoal drawing, sketching, painting, and making ceramics, but my favorite of them all is collaging.</p>
                             
-                            <img src="images/cat-collage-clear-background.jpeg" alt="Photo of cat collage in front of a gray background." class="about-page-img mx-auto">
+                            <div class="text-center">
+                                <img src="images/cat-collage-clear-background.jpeg" alt="Photo of cat collage in front of a gray background." class="img-fluid about-page-img ">
+                            </div>
                         </li>
 
 
-                        <li class="m-4">
-                            <h5 class="fw-bold text-uppercase">Creative story writing</h5>
+                        <h5 class="fw-bold text-uppercase text-center mt-md-5">Creative story writing</h5>
+                        <li>
                             <p class="about-page-text">
                                 "I am currently working on a novel about a young veterinary technician and a newly graduated dental hygienist, 
                                 both facing newfound responsibilities as they navigate the challenges of World War I in Europe.
                             </p>
+                            <div class="text-center">
+                                <img src="images/epiphany.PNG" alt="The cover of the Epiphany novel that Erika is in the works of." class="about-page-img">
+                            </div>
+
                         </li>
         
+                        <h5 class="fw-bold text-uppercase text-center mt-md-5">Thifting</h5>
                         <li>
-                            <h5 class="fw-bold text-uppercase">Thifting</h5>
                             <p class="about-page-text">
                                 My earliest memory of thrifting was going to a thrift store back in Washington with my mom and finding Barbies in plastic bags. 
                                 It is a part of me now, and you can find treasure for a fraction of the price! 
@@ -288,29 +298,30 @@
                             </p>
                         </li>
         
+                        <h5 class="fw-bold text-uppercase text-center mt-md-5">Reading</h5>
                         <li>
-                            <h5 class="fw-bold text-uppercase">Reading</h5>
                             <p class="about-page-text">
                                 I am actively building up my library for my dream house in the future!
                             </p>
                         </li>
                     </ul>
+
                 </div>
             </article> <!-- End of ROW 5-->
 
             <!-- ROW #6: Goals -->
             <article class="row my-5">
-                <div class="col p-3">
-                    <h2 class="about-page-heading">Goals</h2>
+                <div class="col p-3 p-md-5">
+                    <h2 class="about-page-heading color-green">Goals</h2>
                     <ul>
-                        <li class="about-page-text">
+                        <li class="about-page-text p-md-3" >
                             After obtaining my degree in Art History, I want to build up my experiences to one day work at well-known art institutions such as the 
                             St. Louis Art Museum (SLAM), the Metropolitan Museum of Art (MET), or the Art Institute of Chicago.
                         </li>
-                        <li class="about-page-text">
+                        <li class="about-page-text p-md-3">
                             I enjoy traveling and hope to travel the world. For now, I would love to explore all of Europe and visit my mother's home country, the Philippines.
                         </li>
-                        <li class="about-page-text">
+                        <li class="about-page-text p-md-3">
                             I want to finish the short novel I am working on and share it with others!
                         </li>
                     </ul>

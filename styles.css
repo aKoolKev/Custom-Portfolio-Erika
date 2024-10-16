@@ -200,6 +200,8 @@ footer a{
 .about-page-img{
     width: 100%;
     height: auto;
+    max-width: 350px;
+    height: auto;
 }
 .about-page-heading{
     text-transform: uppercase;
@@ -211,6 +213,13 @@ footer a{
     font-size: 1.1rem;
     text-align: justify;
 }
+
+#cat-carousel{
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+}
+
 
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
@@ -228,12 +237,11 @@ footer a{
         }
         #home-page-para{
             line-height: 2;
-        }
-       
+        } 
 }
 
-/* Tablet (576px to 768px) */
-@media (min-width: 576px) and (max-width: 768px) {
+/* Tablet (576px to 850px) */
+@media (min-width: 576px) and (max-width: 850px) {
     /* Styles for tablets */
 
     /* INDEX.HMTL BREAKPOINT*/
@@ -247,13 +255,16 @@ footer a{
         #mobile-sidebar{
             display: none;
         }
+
+    /* ABOUT PAGE BREAKPOINTS */
+    
         
     
 
 }
 
-/* Desktop (768px and up) */
-@media (min-width: 768px) {
+/* Desktop (850px and up) */
+@media (min-width: 850px) {
     
     /* INDEX.HTML BREAKPOINT(S) */
     #mobile-sidebar, #tablet-sidebar{

@@ -135,13 +135,10 @@
         <h1 id="home-page-title">My Works</h1>
     </header>
     <main class="works-page-container container-fluid">
-        <div class="cat-carousel-container container-fluid">
 
-
-
-            <h2>Design</h2>
-            <p>Below are all the works I've produced during my time in Design at Lindenwood University.</p>
-
+        <h2>Design</h2>
+        <p>Below are all the works I've produced during my time in Design at Lindenwood University.</p>
+        <div class="design-carousel-container container-fluid">
             <!-- DESIGN CAROUSEL -->
             <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
             <div id="design-carousel" class="carousel slide mx-auto">
@@ -174,12 +171,76 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
-            
-
-
         </div>
+
+        <h2>Ceramics</h2>
+        <p>You can see me working on ceramic projects during my time at Crowder Community College.</p>
+        <div id="ceramic-carousel" class="carousel slide mx-auto">
+            <!-- Ceramic CAROUSEL -->
+            <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="images/clay-selfie1.jpeg" class="d-block w-100" alt="A photo of Erika drying cat collage.">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/clay-selfie2.jpeg" class="d-block w-100" alt="The final version of the cat collage.">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/clay-selfie3.jpeg" class="d-block w-100" alt="A picture of an inflated fish. ">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/claycollection.jpeg" class="d-block w-100" alt="A picture of a bookshelf made of cardboard, front view.">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#ceramic-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ceramic-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h2>Painting</h2>
+        <p>The Fluter is one of my best works due to the long hours put into it in the studio. It was chosen to be displayed in the 2023 Exibition at Crowder College. </p>
+        <!-- painting CAROUSEL -->
+        <!-- Credit: https://getbootstrap.com/docs/5.3/components/carousel/ -->
+        <div id="painting-carousel" class="carousel slide mx-auto">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="images/painting-exercice.jpeg" class="d-block w-100" alt="A selfie of Erika working on her ceramic pieces.">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/fluter-reference.jpeg" class="d-block w-100" alt="Another selfie of Erika working on her ceramic pieces.">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/fluter-final.jpeg" class="d-block w-100" alt="Erika working on a red, leaf themed tea pot.">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/flutter-display.jpeg" class="d-block w-100" alt="The full collection of all finished ceramic works.">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#painting-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#painting-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--  -->
+
     </main>
+
     <footer>
         <p> &copy; 2024 Erika Napier | All rights reserved <a href="#"> | Back to Top</a></p>
     </footer> 

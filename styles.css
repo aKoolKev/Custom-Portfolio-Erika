@@ -280,6 +280,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
 .contact-page-container img{
     max-width: 300px;
+    width: 100%;
     border-radius: 15px;    
 }
 
@@ -357,8 +358,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     /* CONTACT PAGE BREAKPOINTS */
     .contact-page-container{
         min-width: 504px;
-
-
     }
     .contact-page-container p{
         font-size: 1.2rem;
@@ -423,9 +422,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         text-decoration: underline;
     }
 
-    /* CONTACT PAGE BREAKPOINTS */
-    
-    
+
 }
 
 

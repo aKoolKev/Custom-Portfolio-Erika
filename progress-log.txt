@@ -67,9 +67,9 @@
 
 
 > CONTACT.HTML
-    ❌ Fix tablet navbar
-    ❌ Add email
-        ❌ social media handles
-        ❌ phone number
+    ✅ Fix tablet navbar
+    ✅ Add email
+        ✅ social media handles
+        ✅ phone number
         ❌ image
-    ❌ Fillable form to send email
+    ✅ Fillable form to send email

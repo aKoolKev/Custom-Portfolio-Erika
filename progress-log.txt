@@ -71,5 +71,12 @@
     ✅ Add email
         ✅ social media handles
         ✅ phone number
-        ❌ image
+        ✅ image
     ✅ Fillable form to send email
+
+
+> RESUME
+    ✅ Mobile layout
+    ✅ Tablet layout
+    ✅ Laptop layout
+    ✅ Style

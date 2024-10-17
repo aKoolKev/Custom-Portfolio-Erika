@@ -285,6 +285,36 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 
+/* RESUME PAGE STYLES */
+.resume-page-container{
+    background-color: #E0E1DD;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+.resume-page-container h2{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #618B25;
+}
+.resume-page-container h4{
+    font-weight: bolder;
+}
+
+.resume-page-container ul{
+    font-family: 'Sabon Next LT', sans-serif;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.resume-page-container li{
+    margin-bottom: 15px;
+}
+
+
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
     footer{
@@ -321,6 +351,14 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         width: 85%;    
     }
     
+    /* RESUME PAGE BREAKPOINT(S) */
+    .resume-page-container{
+        width: 90%;
+    }
+
+    .resume-page-container li{
+        margin-bottom: 0px;
+    }
 
 
 }
@@ -368,6 +406,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     .contact-page-container img{
         max-width: 300px;
         height: auto;
+    }
+
+    /* RESUME PAGE BREAKPOINTS */
+    .resume-page-container{
+        width: 90%;
+        font-size: 1.1rem;
     }
 
 
@@ -420,6 +464,11 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     .about-page-container h5{
         font-size: 2rem;
         text-decoration: underline;
+    }
+
+    /* RESUME PAGE BREAKPOINTS */
+    .resume-page-container{
+        font-size: 1.3rem;
     }
 
 

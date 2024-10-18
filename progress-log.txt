@@ -83,27 +83,49 @@
 
 
 > WORKS
-    ❌ Mobile layout
-        ❌ single card layout
-        ❌ make responsive
-        ❌ finalize style
-    ❌ Tablet layout    
-        ❌ 2 col card layout
-        ❌ make responsive
-        ❌ finalize style
-    ❌ Laptop layout    
-        ❌ 3 col card layout
-        ❌ make responsive
-        ❌ finalize style
+    ✅ Mobile layout
+        ✅ single card layout
+        ✅ make responsive
+        ✅ finalize style
+    ✅ Tablet layout    
+        ✅ 2 col card layout
+        ✅ make responsive
+        ✅ finalize style
+    ✅ Laptop layout    
+        ✅ 3 col card layout
+        ✅ make responsive
+        ✅ finalize style
 
 
 > Service
-    ❌ Rename to "Depot"
-    ❌ Plan content
-    ❌ Mobile Design
-    ❌ Tablet Design
-    ❌ Laptop Design
-    ❌ responsive
-    ❌ Style
-    ❌ Link to shop
-    
+    ✅ Rename to "Depot"
+    ✅ Plan content
+    ✅ Mobile Design
+    ✅ Tablet Design
+    ✅ Laptop Design
+    ✅ responsive
+    ✅ Style
+    ✅ Link to shop
+
+
+FINAL CHECKLIST
+
+    * HOME PAGE ✅
+        > STYLE SHEET ✅
+
+    * ABOUT PAGE ✅
+        > STYLE SHEET ✅
+
+    * CONTACT PAGE ✅
+        > STYLE SHEET ✅
+
+    * RESUME PAGE
+        > STYLE SHEET
+
+    * WORKS PAGE
+        > STYLE SHEET
+
+    * DEPOT PAGE
+        > STYLE SHEET
+
+

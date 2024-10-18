@@ -14,8 +14,8 @@
         <!-- Credit: https://www.cdnfonts.com/sabon-next-lt.font#:~:text=You%20can%20download%20the%20Sabon%20Next%20LT%20font,Please%20research%20the%20license%20information%20before%20using%20it.-->
         <link href="https://fonts.cdnfonts.com/css/sabon-next-lt" rel="stylesheet">
 
-        <!-- Credit: https://www.cdnfonts.com/maghfirea.font#:~:text=You%20can%20download%20the%20Maghfirea%20font%20to%20your,Please%20research%20the%20license%20information%20before%20using%20it. -->
-        <link href="https://fonts.cdnfonts.com/css/maghfirea" rel="stylesheet">
+        <!-- Credit: https://www.cdnfonts.com/funkie-retro.font -->
+        <link href="https://fonts.cdnfonts.com/css/funkie-retro" rel="stylesheet">                 
     </head>
     <body>
         <header>
@@ -139,7 +139,7 @@
         <main class="about-page-container container-fluid">
 
             <!-- ROW #1: BIO --> 
-            <article class="row text-center mt-5">
+            <article class="row text-center mt-5 rowBG">
                 <!-- R1, C1 -->
                 <div class="col col-md-6 d-flex flex-column align-items-center justify-content-center">
                     <h2 class="about-page-heading color-green">Erika Napier</h2>
@@ -154,7 +154,7 @@
             </article> <!-- End of ROW 1 -->
 
             <!-- ROW #2: FUN FACTS-->
-            <article class="row my-5">
+            <article class="row my-5 rowBG">
 
                 <!-- r2, c1 -->
                 <div class="col text-center p-3">
@@ -200,7 +200,7 @@
                     <!-- r2, c1, nested row#1 -->
                     <div class="row text-center mt-5">
                         <!-- nested row c1 -->
-                        <div class="col col-md-6 my-auto">
+                        <div class="col col-md-6 d-flex align-items-center justify-content-center">
                             <p class="about-page-text"> I also have a German Shepherd named Amaya!</p>
                         </div>
 
@@ -213,7 +213,7 @@
                     <!-- r2, c1, nested row#2 -->
                     <div class="row text-center mt-5">
                         <!-- nested row 2 c1 -->
-                        <div class="col col-md-6 order-2 my-auto">
+                        <div class="col col-md-6 order-2 d-flex align-items-center justify-content-center">
                             <p class="about-page-text"> I am an artist and an art historian. My favorite art movement is Dada!</p>
                         </div>
 
@@ -227,22 +227,23 @@
                     <!-- r2, c1, nested row#3 -->
                     <div class="row mt-5">
                         <!-- nested row 3 c1 -->
-                        <div class="col p-3 d-flex flex-column align-items-center" style="text-align: left;">
+                        <div class="col p-3 d-flex flex-column align-items-center">
                             <ul>
-                                <li class="about-page-text">
+                                <!-- text-start: https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment -->
+                                <li class="about-page-text text-start">
+                                    I am half Filipino! 
+                                </li class="about-page-text text-start">
+                                <li class="about-page-text text-start">
                                     I have lived in California, Washington, Connecticut, and Oklahoma. 
                                     I have also been out of the country: Japan.                                
                                 </li>
-                                <li class="about-page-text">
-                                    I am half Filipino! 
-                                </li class="about-page-text">
-                                <li class="about-page-text">
+                                <li class="about-page-text text-start">
                                     In the summer of 2024, I opened an online Depot store to give old clothes new homes, promoting reusability.
                                 </li>
                             </ul>
 
                             <!-- SEO Tatic: Link building -->
-                            <a href="depot.html" class="about-page-button floating-up-down"> Visit the Shop!</a>
+                            <a href="depot.html" class="about-page-button floating-up-down"> Go to Depot!</a>
                         </div>
                     </div>
 
@@ -251,7 +252,7 @@
             </article> <!-- End of ROW 2 -->
 
             <!-- ROW #3: INSPIRATION -->
-            <article class="row">
+            <article class="row p-4 rowBG">
                 <div class="col-sm-4 col-md-4 order-md-2 p-3 pt-5">
                     <h2 class="about-page-heading color-green">Inspiration</h2>
                     <p id="sibling-para">
@@ -268,12 +269,12 @@
             </article> <!-- End of ROW 3 -->
 
             <!-- ROW #4: FAVORITE SONG -->
-            <article class="row my-5">
+            <article class="row my-5 rowBG">
                 <div class="col p-3 d-flex flex-column align-items-center">
                     <h2 class="about-page-heading mb-4 color-green">Current Favorite Song</h2>
                     <!-- Link to music on youtube -->
                     <h5>"Suburban Blues" by The Aces </h5>
-                    <p style="font-style: italic;" class="about-page-text"> * This is always my song request :P </p>
+                    <p class="about-page-text fst-italic"> * This is always my song request :P </p>
     
                     <div class="col-sm-10 col-md-8">    
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/ja6Eu8cT-os?si=f93uCTXVZk9ewkR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -283,16 +284,15 @@
             
 
             <!-- ROW #5: HOBBIES -->
-            <article class="row my-5">
+            <article class="row my-5 rowBG">
                 <div class="col p-3">
                     
                     <!-- Font weight: https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics -->
                     <ul class="about-page-ul">
                         <h2 class="about-page-heading color-green text-center">HOBBIES</h2>
                         <h5 class="fw-bold text-uppercase text-center mt-md-5">Art & Crafts</h5>
-                        <li class="row">
-                            <div class="col col-md-5">
-                                <!-- Text uppercase: https://getbootstrap.com/docs/5.3/utilities/text/#text-transform -->
+                        <li class="row align-items-center">
+                            <div class="col-md-5">
                                 <p class="about-page-text">I enjoy charcoal drawing, sketching, painting, and making ceramics, but my favorite of them all is collaging.</p>
                             </div>
                             
@@ -334,7 +334,7 @@
             </article> <!-- End of ROW 5-->
 
             <!-- ROW #6: Goals -->
-            <article class="row my-5">
+            <article class="row my-5 rowBG">
                 <div class="col p-3 p-md-5">
                     <h2 class="about-page-heading color-green">Goals</h2>
                     <ul class="about-page-ul">

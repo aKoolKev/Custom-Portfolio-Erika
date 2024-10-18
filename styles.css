@@ -33,11 +33,11 @@
 
 
 /* Utility classes */
-.font-sabon, p{
+.font-sabon, p, ul, li{
     font-family: 'Sabon Next LT', sans-serif;
 }
-.font-maghfirea, h1, h2, h3, h4, h5, h6{
-    font-family: 'Maghfirea', sans-serif;
+.font-funkie, h1, h2, h3, h4, h5, h6{
+    font-family: 'Funkie Retro', sans-serif;                                    
 }
 .color-brown{
     color: #533E2D;
@@ -66,8 +66,6 @@ main{
     border: 5px dotted rgb(250, 152, 237);
 }
 footer{
-    /* background-color: rgb(255, 0, 0); */
-    border: 3px solid rgb(242, 122, 122);    
     color: #533E2D;
     text-align: center;
     padding: 10px;
@@ -99,7 +97,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     background-color: #618B25;
 }
 
-#Laptop-Horizontal-Navbar .nav-item .nav-link, #Laptop-Horizontal-Navbar .navbar-brand{
+#Laptop-Horizontal-Navbar .nav-item .nav-link, #Laptop-Horizontal-Navbar .navbar-brand, #Laptop-Horizontal-Navbar-index .nav-item .nav-link, #Laptop-Horizontal-Navbar .navbar-brand-index{
     color: #533E2D;
 }
 
@@ -119,22 +117,21 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 
+
+
 /* INDEX.HTML STYLES */
 .index-page-container img{
     border-radius: 20px;
     padding: 0;
     border: 7px solid black;
 }
-
 #mobile-sidebar{
     background-color: transparent;
 }
 #mobile-sidebar button{
     background-color: #618B25;
 }
-
-/* Make the btn-close icon white */
-.btn-close {
+.btn-close { /* Make the btn-close icon white */
     /* credit: https://icons.getbootstrap.com/icons/x-lg/ */
     background-image: url('images/x-lg.svg');
 }
@@ -147,7 +144,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 #tablet-sidebar li{
     margin: 15px 0;
 }
-
 .tablet-sidebar-button {
     background-color: transparent;
     padding: 0;
@@ -165,7 +161,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     font-family: 'Sabon Next LT', sans-serif;
     text-decoration: none;
 }
-
 #home-page-title{
     text-align: center;
     font-size: 3rem;
@@ -174,7 +169,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     text-transform: uppercase;
     margin-top:10vh;
 }
-
 #home-page-subheading{
     font-weight: bold;
     color: #618B25;
@@ -206,6 +200,8 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 
+
+
 /* ABOUT PAGE STYLES */
 .about-page-img{
     width: 100%;
@@ -218,13 +214,11 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     text-transform: uppercase;
     text-align:center;
 }
-
 .about-page-text{
     line-height: 2;
     font-size: 1.1rem;
     text-align: justify;
 }
-
 .about-page-button{
     background-color: #618B25;
     border-radius: 15px;
@@ -236,12 +230,10 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     text-decoration: none;
     min-width: 130px;
 }
-
 .cat-carousel-container{
     background-color: #7a8f59c0;
     width: 100%;
 }
-
 #cat-carousel{
     width: 90%;
     max-width: 400px;
@@ -250,21 +242,22 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 #cat-carousel img{
     border-radius: 15px;
 }
-
 .about-page-container h5{
     text-decoration: underline;
 }
-
-.about-page-container .row {
+.about-page-container .rowBG{
     background-color: rgba(255, 255, 255, 0.391); 
     border-radius: 20px;
+    padding: 5px;
 }
-
 .about-page-container img {
     border-radius: 20px;
     padding: 0;
     border: 7px solid black;
 }
+
+
+
 
 /* CONTACT PAGE STYLE */
 .contact-page-button{
@@ -281,7 +274,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     font-size: 1rem;
     width: 150px;
 }
-
 .contact-page-container{
     width: 50%;
     text-align: center;
@@ -291,16 +283,16 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     border-radius: 20px;
     border: 7px solid black;
 }
-
 .contact-page-container p{
     font-size: 1.5rem;
 }
-
 .contact-page-container img{
     max-width: 300px;
     width: 100%;
     border-radius: 15px;    
 }
+
+
 
 
 /* RESUME PAGE STYLES */
@@ -348,6 +340,25 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 
+/* DEPOT PAGE STYLES */
+.depot-page-container{
+    background-color: white;
+    width: 85%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+.depot-page-container p{
+    background-color: #f3faea;
+    color: black;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px;
+}
+.depot-page-container .row {
+    justify-content: center;
+}
+
 
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
@@ -374,17 +385,19 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         margin-top: 5vh;
     }
 
+
     /* CONTACT PAGE BREAKPOINTS */
-    .contact-page-container{
-        width: 90%;
-    }
-    .contact-page-container p{
-        font-size: 1.2rem;
-    }
-    .contact-page-container img{
-        width: 85%;    
-    }
+        .contact-page-container{
+            width: 90%;
+        }
+        .contact-page-container p{
+            font-size: 1.2rem;
+        }
+        .contact-page-container img{
+            width: 85%;    
+        }
     
+
     /* RESUME PAGE BREAKPOINT(S) */
     .resume-page-container{
         width: 90%;
@@ -399,6 +412,15 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     .works-page-container p{
         font-size: 1.2rem;
         line-height: 2;
+    }
+
+    /* DEPOT PAGE BREAKPOINT(S) */
+    .depot-page-container p{
+        line-height: 2;
+        font: 1rem;
+    }
+    .depot-page-container {
+        width: 95%;
     }
 
 
@@ -431,7 +453,9 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
     /* ABOUT PAGE BREAKPOINTS */
         .hide-at-850px {
-            display: none !important; /* Forces the column to be hidden */
+            /* !important: credit: https://www.w3schools.com/css/css_important.asp */
+            /* Forces the column to be hidden */
+            display: none !important; 
         }
 
     /* CONTACT PAGE BREAKPOINTS */
@@ -455,7 +479,10 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             font-size: 1.1rem;
         }
 
-    /* WORKS PAGE BREAKPOINTS */
+    /* DEPOT PAGE BREAKPOINTS */
+    .depot-page-container p{
+        line-height: 2;
+    }
 
 
 }
@@ -479,6 +506,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             padding: 0;
         }
     
+
 
     /* ABOUT PAGE BREAKPOINT */
         .about-page-img{
@@ -509,13 +537,14 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             padding: 5px;
         }
 
+
+
     /* RESUME PAGE BREAKPOINTS */
         .resume-page-container{
             font-size: 1.3rem;
             border-radius: 20px;
             border: 7px solid black;
         }
-
 
 }
 

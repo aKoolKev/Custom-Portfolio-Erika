@@ -48,22 +48,12 @@
 
 
 /* STYLES FOR ALL WEBPAGES */
-header{
-    /* background-color: rgba(255, 255, 0, 0.533); */
-    /* padding: 20px; */
-    border: 2px solid black;
-}
 body{
-    background-color: #E0E1DD;
-    border: 5px solid rgb(155, 48, 141);     
+    background-color: #E0E1DD;   
     color: #533E2D;  
     font-size: 16px;
     background-image: url('images/canvas-bg.jpeg');
     background-attachment: fixed; 
-}
-main{
-    /* background-color: rgba(121, 121, 235, 0.596); */
-    border: 5px dotted rgb(250, 152, 237);
 }
 footer{
     color: #533E2D;

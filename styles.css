@@ -114,6 +114,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 /* INDEX.HTML STYLES */
+.index-page-container img{
+    border-radius: 20px;
+    padding: 0;
+    border: 7px solid black;
+}
+
 #mobile-sidebar{
     background-color: transparent;
 }
@@ -181,6 +187,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     max-height: 500px;
     margin-bottom: 25px;
     padding: 0;
+    margin: 0;
     border-radius: 10px;
 }
 #home-page-para{
@@ -247,6 +254,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     border-radius: 20px;
 }
 
+.about-page-container img {
+    border-radius: 20px;
+    padding: 0;
+    border: 7px solid black;
+}
+
 /* CONTACT PAGE STYLE */
 .contact-page-button{
     display: block;
@@ -269,6 +282,8 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     background-color: #E0E1DD;
     border-radius: 20px;
     padding: 15px;
+    border-radius: 20px;
+    border: 7px solid black;
 }
 
 .contact-page-container p{
@@ -325,6 +340,8 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     padding: 7px;
     background-color: black;
 }
+
+
 
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
@@ -444,17 +461,16 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         #mobile-sidebar, #tablet-sidebar{
             display: none;
         }
-        .home-page-img-laptop{
-            display: block;
-        }
         .home-page-img{
             display: none;
         }
         .home-page-img-laptop{
+            display: block;
             width: auto;
             min-width: 350px;
             max-height: 600px;
             border-radius: 60px;
+            padding: 0;
         }
     
 
@@ -481,10 +497,17 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             font-size: 2rem;
             text-decoration: underline;
         }
+        #sibling-para{
+            font-size: 25px; 
+            line-height: 2; 
+            padding: 5px;
+        }
 
     /* RESUME PAGE BREAKPOINTS */
         .resume-page-container{
             font-size: 1.3rem;
+            border-radius: 20px;
+            border: 7px solid black;
         }
 
 

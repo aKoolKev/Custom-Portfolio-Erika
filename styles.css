@@ -194,9 +194,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
 
 /* ABOUT PAGE STYLES */
-/* .col{
-    border: 5px double rgb(5, 30, 255);
-} */
 .about-page-img{
     width: 100%;
     height: auto;
@@ -323,6 +320,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     margin-top: 10px;
 }
 
+.works-page-container img {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: black;
+}
+
 /* Mobile (up to 575px) */
 @media (max-width: 575px) {
     footer{
@@ -375,11 +378,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         line-height: 2;
     }
 
-    .works-page-container img {
-        border-radius: 20px;
-        padding: 7px;
-        background-color: black;
-    }
 
 }
 
@@ -402,7 +400,7 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             padding: 0;
             border-radius: 10px;
         }
-    
+
         #Laptop-Horizontal-Navbar-index{
             display: none;
         }
@@ -414,25 +412,27 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         }
 
     /* CONTACT PAGE BREAKPOINTS */
-    .contact-page-container{
-        min-width: 504px;
-    }
-    .contact-page-container p{
-        font-size: 1.2rem;
-    }
-    .contact-page-container h2{
-        font-size: 1.7rem;
-    }
-    .contact-page-container img{
-        max-width: 300px;
-        height: auto;
-    }
+        .contact-page-container{
+            min-width: 504px;
+        }
+        .contact-page-container p{
+            font-size: 1.2rem;
+        }
+        .contact-page-container h2{
+            font-size: 1.7rem;
+        }
+        .contact-page-container img{
+            max-width: 300px;
+            height: auto;
+        }
 
     /* RESUME PAGE BREAKPOINTS */
-    .resume-page-container{
-        width: 90%;
-        font-size: 1.1rem;
-    }
+        .resume-page-container{
+            width: 90%;
+            font-size: 1.1rem;
+        }
+
+    /* WORKS PAGE BREAKPOINTS */
 
 
 }
@@ -441,55 +441,51 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 @media (min-width: 850px) {
     
     /* INDEX.HTML BREAKPOINT(S) */
-    #mobile-sidebar, #tablet-sidebar{
-        display: none;
-    }
-    .home-page-img-laptop{
-        display: block;
-    }
-    .home-page-img{
-        display: none;
-    }
-    .home-page-img-laptop{
-        width: auto;
-        min-width: 350px;
-        max-height: 600px;
-    }
+        #mobile-sidebar, #tablet-sidebar{
+            display: none;
+        }
+        .home-page-img-laptop{
+            display: block;
+        }
+        .home-page-img{
+            display: none;
+        }
+        .home-page-img-laptop{
+            width: auto;
+            min-width: 350px;
+            max-height: 600px;
+            border-radius: 60px;
+        }
     
 
     /* ABOUT PAGE BREAKPOINT */
-    .about-page-img{
-        max-width: 475px;
-    }
-
-    .about-page-text{
-        font-size: 1.5rem;
-        width: 50%;
-        margin: 10px auto;
-        text-align: center;
-    }
-
-    .about-page-heading{
-        font-size: 2.3rem;
-    }
-    
-    .about-page-ul li{
-        list-style-type: none;
-    }
-
-    .about-page-container {
-        width: 85%;
-    }
-
-    .about-page-container h5{
-        font-size: 2rem;
-        text-decoration: underline;
-    }
+        .about-page-img{
+            max-width: 475px;
+        }
+        .about-page-text{
+            font-size: 1.5rem;
+            width: 50%;
+            margin: 10px auto;
+            text-align: center;
+        }
+        .about-page-heading{
+            font-size: 2.3rem;
+        }
+        .about-page-ul li{
+            list-style-type: none;
+        }
+        .about-page-container {
+            width: 85%;
+        }
+        .about-page-container h5{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
 
     /* RESUME PAGE BREAKPOINTS */
-    .resume-page-container{
-        font-size: 1.3rem;
-    }
+        .resume-page-container{
+            font-size: 1.3rem;
+        }
 
 
 }

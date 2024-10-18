@@ -298,20 +298,20 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 /* RESUME PAGE STYLES */
 .resume-page-container{
     background-color: #E0E1DD;
+    border: 7px solid black;
     border-radius: 15px;
     padding: 10px;
     width: 80%;
 }
-
 .resume-page-container h2{
-    font-weight: bolder;
+    /* font-weight: bolder; */
     text-transform: uppercase;
     color: #618B25;
 }
 .resume-page-container h4{
-    font-weight: bolder;
+    font-family: 'Sabon Next LT', sans-serif;
+    font-weight: bold;
 }
-
 .resume-page-container ul{
     font-family: 'Sabon Next LT', sans-serif;
     border-radius: 15px;
@@ -319,10 +319,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     margin-bottom: 30px;
     padding: 25px;
 }
-
 .resume-page-container li{
     margin-bottom: 15px;
 }
+
+
+
 
 
 /* WORKS PAGE STYLES */
@@ -396,16 +398,17 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
         .contact-page-container img{
             width: 85%;    
         }
+
     
 
     /* RESUME PAGE BREAKPOINT(S) */
-    .resume-page-container{
-        width: 90%;
-    }
+        .resume-page-container{
+            width: 90%;
+        }
 
-    .resume-page-container li{
-        margin-bottom: 0px;
-    }
+        .resume-page-container li{
+            margin-bottom: 0px;
+        }
 
 
     /* WORKS PAGE BREAKPOINT(S) */
@@ -542,8 +545,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     /* RESUME PAGE BREAKPOINTS */
         .resume-page-container{
             font-size: 1.3rem;
-            border-radius: 20px;
-            border: 7px solid black;
         }
 
 }

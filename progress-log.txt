@@ -119,8 +119,8 @@ FINAL CHECKLIST
     * CONTACT PAGE ✅
         > STYLE SHEET ✅
 
-    * RESUME PAGE
-        > STYLE SHEET
+    * RESUME PAGE ✅
+        > STYLE SHEET ✅
 
     * WORKS PAGE
         > STYLE SHEET

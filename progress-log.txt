@@ -95,3 +95,15 @@
         ❌ 3 col card layout
         ❌ make responsive
         ❌ finalize style
+
+
+> Service
+    ❌ Rename to "Depot"
+    ❌ Plan content
+    ❌ Mobile Design
+    ❌ Tablet Design
+    ❌ Laptop Design
+    ❌ responsive
+    ❌ Style
+    ❌ Link to shop
+    

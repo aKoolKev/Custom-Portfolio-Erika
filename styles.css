@@ -110,8 +110,14 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
 .current-nav-location{
     font-weight: bold; 
+    color: #618B25;
     padding-right:20px;
 }
+.current-nav-location:hover{
+    font-weight: bold; 
+    color: #618B25;
+}
+
 
 /* INDEX.HTML STYLES */
 .index-page-container img{

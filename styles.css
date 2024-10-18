@@ -342,22 +342,22 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 }
 
 
-/* DEPOT PAGE STYLES */
-.depot-page-container{
+/* DEPOP PAGE STYLES */
+.depop-page-container{
     background-color: white;
     width: 85%;
     margin-top: 10px;
     border-radius: 15px;
     border: 5px solid black;
 }
-.depot-page-container p{
+.depop-page-container p{
     background-color: #f3faea;
     color: black;
     border-radius: 15px;
     width: 90%;
     padding: 10px;
 }
-.depot-page-container .row {
+.depop-page-container .row {
     justify-content: center;
 }
 
@@ -417,12 +417,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             line-height: 2;
         }
 
-    /* DEPOT PAGE BREAKPOINT(S) */
-        .depot-page-container p{
+    /* depop PAGE BREAKPOINT(S) */
+        .depop-page-container p{
             line-height: 2;
             font: 1rem;
         }
-        .depot-page-container {
+        .depop-page-container {
             width: 95%;
         }
 
@@ -488,10 +488,10 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             font-size: 1.3rem;
         }
 
-    /* DEPOT PAGE BREAKPOINTS */
-    .depot-page-container p{
-        line-height: 2;
-    }
+    /* depop PAGE BREAKPOINTS */
+        .depop-page-container p{
+            line-height: 2;
+        }
 
 
 }
@@ -559,6 +559,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             font-size: 1.3rem;
         }
 
+        
+    /* depop PAGE BREAKPOINTS */
+        .depop-page-container p{
+            line-height: 2;
+            font-size: 1.3rem;
+        }
 }
 
 

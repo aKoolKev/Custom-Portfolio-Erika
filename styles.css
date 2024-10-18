@@ -289,7 +289,8 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 .contact-page-container img{
     max-width: 300px;
     width: 100%;
-    border-radius: 15px;    
+    border-radius: 15px;  
+    border: 5px solid black;  
 }
 
 
@@ -334,7 +335,6 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     text-transform: uppercase;
     margin-top: 10px;
 }
-
 .works-page-container img {
     border-radius: 20px;
     padding: 7px;
@@ -372,20 +372,20 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
     }
 
     /* INDEX PAGE BREAKPOINTS */
-    .home-page-img{
-        width: auto;
-        max-height: 350px;
-        margin-bottom: 25px;
-        padding: 0;
-        border-radius: 10px;
-    }
-    #home-page-para{
-        line-height: 2;
-    } 
-    #home-page-title{
-        font-size: 40px;
-        margin-top: 5vh;
-    }
+        .home-page-img{
+            width: auto;
+            max-height: 350px;
+            margin-bottom: 25px;
+            padding: 0;
+            border-radius: 10px;
+        }
+        #home-page-para{
+            line-height: 2;
+        } 
+        #home-page-title{
+            font-size: 40px;
+            margin-top: 5vh;
+        }
 
 
     /* CONTACT PAGE BREAKPOINTS */
@@ -412,19 +412,19 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
 
     /* WORKS PAGE BREAKPOINT(S) */
-    .works-page-container p{
-        font-size: 1.2rem;
-        line-height: 2;
-    }
+        .works-page-container p{
+            font-size: 1.2rem;
+            line-height: 2;
+        }
 
     /* DEPOT PAGE BREAKPOINT(S) */
-    .depot-page-container p{
-        line-height: 2;
-        font: 1rem;
-    }
-    .depot-page-container {
-        width: 95%;
-    }
+        .depot-page-container p{
+            line-height: 2;
+            font: 1rem;
+        }
+        .depot-page-container {
+            width: 95%;
+        }
 
 
 }
@@ -476,10 +476,16 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
             height: auto;
         }
 
-    /* RESUME PAGE BREAKPOINTS */
+    /* RESUME PAGE BREAKPOINT(s) */
         .resume-page-container{
             width: 90%;
             font-size: 1.1rem;
+        }
+
+    /* WORKS PAGE BREAKPOINT(s) */
+        .works-page-container p{
+            line-height: 2;
+            font-size: 1.3rem;
         }
 
     /* DEPOT PAGE BREAKPOINTS */
@@ -544,6 +550,12 @@ button:hover, button a:hover, .about-page-button:hover, .contact-page-button:hov
 
     /* RESUME PAGE BREAKPOINTS */
         .resume-page-container{
+            font-size: 1.3rem;
+        }
+
+    /* WORKS PAGE BREAKPOINT(s) */
+        .works-page-container p{
+            line-height: 2;
             font-size: 1.3rem;
         }
 

@@ -117,13 +117,14 @@ FINAL CHECKLIST
         > STYLE SHEET ✅
 
     * CONTACT PAGE ✅
+        ❌ NEED ERI's LINKEDIN link!
         > STYLE SHEET ✅
 
     * RESUME PAGE ✅
         > STYLE SHEET ✅
 
-    * WORKS PAGE
-        > STYLE SHEET
+    * WORKS PAGE ✅
+        > STYLE SHEET ✅
 
     * DEPOT PAGE
         > STYLE SHEET
